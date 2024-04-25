@@ -1,7 +1,16 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        for c in s:
-            i = t.find(c)
-            if i == -1:    return False
-            else:   t = t[i+1:]
-        return True
+        if not s:
+            return True # 13 test case passed here
+
+        i=0
+        for c in t:
+            if c==s[i]:
+                i+=1
+                if i==len(s):
+                    return True
+        return False                
+
+
+        
+        
