@@ -1,16 +1,21 @@
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        left = 0
-        right = len(height)-1
-        #started with widest seperation of the lines
-        max_area = (right-left) * min(height[right],height[left])
-
-        while left < right : #any lesser sep should have more area than prev calc.
-            if height[left] < height[right]: 
-                left+=1
+    def maxArea(self, h: List[int]) -> int:
+        l,r = 0,len(h)-1
+        m=0
+        while l<r:
+            mh = min([h[l],h[r]])
+            mw = (r-l)*mh
+            if mw>m:
+                m=mw
+            # print(f'{m=},{mh=}, {mw=}')
+            if h[r]<h[l]:
+                r-=1
+            elif h[r]>h[l]:
+                l+=1
             else:
-                right-=1
-            #calculate max area and newly calculated area    
-            max_area = max(max_area,(right-left)*min(height[right],height[left]))
-        return max_area            
+                r-=1
+                l+=1
+        return m
+
+                   
         
