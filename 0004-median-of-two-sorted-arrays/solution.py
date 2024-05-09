@@ -1,36 +1,44 @@
 class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        # l = len(nums1)+len(nums2)
+        # m = l//2
+        # a1,a2 = nums1[:m],nums2[:m]
 
-	# Method to find median
-	def findMedianSortedArrays(self, A, B):
-	
-		# Assumption both A and B cannot be empty
-		n = len(A)
-		m = len(B)
-		if (n > m):
-			return self.findMedianSortedArrays(B, A) # Swapping to make A smaller
+        # a1l = a1[-1]
+        # a2f = a1[0]
+        # if a1l<a2f:
+        #     try:
+        #         return a1[m]
+        #     except:
+        #         pass
+                
+        #     try:
+        #         return a2[m%len(a1)]
+        #     except:
+        #         pass
+                
 
-		start = 0
-		end = n
-		realmidinmergedarray = (n + m + 1) // 2
+        
+        # if a2 and a2[-1] > a1[-1]:
+        #     return a2[-1]
+        # if a1 and a2[-1] <= a1[-1]:
+        #     return a1[-1]
+        # for i,j in zip(a1[::-1],a2[::-1]):
+        #     if 
 
-		while (start <= end):
-			mid = (start + end) // 2
-			leftAsize = mid
-			leftBsize = realmidinmergedarray - mid
-			
-			# checking overflow of indices
-			leftA = A[leftAsize - 1] if (leftAsize > 0) else float('-inf')
-			leftB = B[leftBsize - 1] if (leftBsize > 0) else float('-inf')
-			rightA = A[leftAsize] if (leftAsize < n) else float('inf')
-			rightB = B[leftBsize] if (leftBsize < m) else float('inf')
+        # nlogn solution
+        c= nums1+nums2
+        c.sort()
+        n = len(c)
 
-			# if correct partition is done
-			if leftA <= rightB and leftB <= rightA:
-				if ((m + n) % 2 == 0):
-					return (max(leftA, leftB) + min(rightA, rightB)) / 2.0
-				return max(leftA, leftB)
+        if n%2!=0:
+            med = c[int(n/2)]
+        else:
+            b=int(n/2)
+            a=b-1
+            med = (c[a]+c[b])/2
+        return med   
 
-			elif (leftA > rightB):
-				end = mid - 1
-			else:
-				start = mid + 1
+
+
+
