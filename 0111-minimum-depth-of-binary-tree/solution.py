@@ -5,11 +5,18 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    def rec(self,node,lvl):
+        if node is None:
+            return lvl
+        if node.left is None and node.right is None:
+            return lvl+1  
+        if not node.left:
+            return self.rec(node.right,lvl+1)  
+        if not node.right:
+            return self.rec(node.left,lvl+1)              
+        # if node.left is None or node.right is None:
+        #     return lvl + 1
+        return min(self.rec(node.left,lvl+1),self.rec(node.right,lvl+1))
+
     def minDepth(self, root: Optional[TreeNode]) -> int:
-        if not root: return 0
-        elif not root.right and not root.left: return 1
-        elif not root.right: return 1 + self.minDepth(root.left)
-        elif not root.left: return 1 + self.minDepth(root.right)
-        return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
-        
-        
+        return self.rec(root,0)
