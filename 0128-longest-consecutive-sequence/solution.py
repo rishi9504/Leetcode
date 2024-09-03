@@ -5,7 +5,11 @@ class Solution:
         # for i,n in enumerate(nums):
         #     m[n].append(n)
         #     if n-1 in m:
-        m = set(nums)
+
+
+
+        m = set(nums)  # {1,2,3,100,4,200 }
+        print (m)
         longest = 0
 
         for i in m:
@@ -16,7 +20,7 @@ class Solution:
                 seq+=1
                 i+=1
             longest = max(longest,seq)
-        return longest            
+        return longest           
 
 
 
