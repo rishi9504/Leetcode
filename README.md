@@ -1,5 +1,8 @@
 Repo about my leetcode solutions
 
+Company wise questions: 
+https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file
+
 DSA Patterns Sheet:
 #### Here is a 10-line template that can solve most 'substring' problems
 https://leetcode.com/problems/minimum-window-substring/solutions/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems/
