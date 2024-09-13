@@ -1,4 +1,4 @@
-Repo about my leetcode solutions
+Repo about my leetcode solutions and helpful resources 
 
 Company wise questions: 
 https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file
