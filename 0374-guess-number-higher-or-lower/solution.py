@@ -12,7 +12,6 @@ class Solution:
         while right >= left:
             mid = (right+left) // 2
             myGuess = guess(mid)
-            print(mid)            
             if(myGuess == 0):
                 return mid
             if(myGuess == 1):
