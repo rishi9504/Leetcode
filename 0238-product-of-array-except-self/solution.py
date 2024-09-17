@@ -8,7 +8,6 @@ class Solution:
         sums = [1]
         for i in range(1,len(nums)):
             sums.append(nums[i-1]*sums[-1])
-        print(sums)
 
         final=1
         for i in range(len(nums)-1,-1,-1):
