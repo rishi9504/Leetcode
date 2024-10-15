@@ -1,5 +1,11 @@
 Repo about my leetcode solutions and helpful resources 
 
+
+Flowchart for solving DSA Problems
+
+![flowchartdsa](https://github.com/user-attachments/assets/6eae9fbc-4a04-4b24-9702-22b67191ded6)
+
+
 Company wise questions: 
 https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file
 
