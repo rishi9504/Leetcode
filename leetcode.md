@@ -27,3 +27,23 @@
 [328](https://github.com/rishi9504/Leetcode/blob/main/328.%20Odd%20Even%20Linked%20List.py)
 
 [33](https://github.com/rishi9504/Leetcode/blob/main/33.%20Search%20in%20Rotated%20Sorted%20Array.py)
+
+[35](https://github.com/rishi9504/Leetcode/blob/main/35.%20Search%20Insert%20Position.py)
+
+[448](https://github.com/rishi9504/Leetcode/blob/main/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py)
+
+[543](https://github.com/rishi9504/Leetcode/blob/main/543.Diameter%20of%20Binary%20Tree.py)
+
+[605](https://github.com/rishi9504/Leetcode/blob/main/605.Can%20Place%20Flowers.py)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
