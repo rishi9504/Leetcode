@@ -36,6 +36,38 @@
 
 [605](https://github.com/rishi9504/Leetcode/blob/main/605.Can%20Place%20Flowers.py)
 
+[724](https://github.com/rishi9504/Leetcode/blob/main/724.Find%20Pivot%20Index.py)
+
+[744](https://github.com/rishi9504/Leetcode/blob/main/744.Find%20Smallest%20Letter%20Greater%20Than%20Target.py)
+
+[75](https://github.com/rishi9504/Leetcode/blob/main/75.%20Sort%20Colors.py)
+
+[81](https://github.com/rishi9504/Leetcode/blob/main/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.py)
+
+[83](https://github.com/rishi9504/Leetcode/blob/main/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)
+
+[872](https://github.com/rishi9504/Leetcode/blob/main/872.%20Leaf-Similar%20Trees.py)
+
+[901](https://github.com/rishi9504/Leetcode/blob/main/901.%20Online%20Stock%20Span.py)
+
+[977](https://github.com/rishi9504/Leetcode/blob/main/977.%20Squares%20of%20a%20Sorted%20Array.py)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
 []()
 
 []()
