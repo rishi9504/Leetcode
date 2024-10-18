@@ -1,4 +1,10 @@
-Repo about my leetcode solutions and helpful resources 
+### Solved Leetcode problems with my solutions
+
+* I am updating the list in [Leetcode Readme](https://github.com/rishi9504/Leetcode/blob/main/leetcode.md), any help in that section is most welcome.
+*  I have added github actions to automatically sync the repo with any new/old problems that are solved.
+*  I am adding thoughts on how I solved the questions, or my approach to remember in near future.
+
+### Some more extra resources I keep on encountering which are super useful for DSA Interview Preperations (Primarily Leetcode): 
 
 
 Flowchart for solving DSA Problems
@@ -6,10 +12,11 @@ Flowchart for solving DSA Problems
 ![flowchartdsa](https://github.com/user-attachments/assets/6eae9fbc-4a04-4b24-9702-22b67191ded6)
 
 
-Company wise questions: 
+### Super helpful option to Premium
+* Company wise questions: 
 https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file
 
-DSA Patterns Sheet:
+## DSA Patterns Sheet:
 #### Here is a 10-line template that can solve most 'substring' problems
 https://leetcode.com/problems/minimum-window-substring/solutions/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems/
 
