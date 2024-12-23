@@ -1,6 +1,7 @@
 ### Solved Leetcode problems with my solutions
 
 * I am updating the list in [Leetcode Readme](https://github.com/rishi9504/Leetcode/blob/main/leetcode.md), any help in that section is most welcome.
+* I have added a roadmap for top companies here : [roadmap](https://github.com/rishi9504/Leetcode/blob/main/roadmap.md)
 *  I have added github actions to automatically sync the repo with any new/old problems that are solved.(TODO: I will add the process how to do this)
 *  I am adding thoughts on how I solved the questions, or my approach to remember in near future.
 
