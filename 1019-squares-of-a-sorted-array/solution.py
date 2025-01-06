@@ -1,24 +1,13 @@
 class Solution:
-    def sortedSquares(self, nums: List[int]) -> List[int]:
-        neg = []
-        neg_idx = 0
-        for i,x in enumerate(nums,start=1):
-            if x<0:
-                neg.append(x**2)
-                neg_idx = i
+    def sortedSquares(self, A: List[int]) -> List[int]:
+        #two pointer approach
+        result = [None for _ in A]
+        left, right = 0, len(A) - 1
+        for index in range(len(A)-1, -1, -1):
+            if abs(A[left]) > abs(A[right]):
+                result[index] = A[left] ** 2
+                left += 1
             else:
-                break
-        # neg.reverse()
-        # print(neg)
-        res = []
-        for x in nums[neg_idx:]:
-            r = x**2
-            # print(r,x)
-            while neg and  r>neg[-1]:
-                res.append(neg.pop())
-            res.append(r)
-        while neg:
-            res.append(neg.pop())
-        return res
-            
-
+                result[index] = A[right] ** 2
+                right -= 1
+        return result
