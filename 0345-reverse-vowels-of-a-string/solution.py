@@ -1,5 +1,7 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
+        # two pointer approach, convert string to list and check the left and right locs
+        # if not vowel then move forward in l and back in r, if vowel then swap and change l,r
         s = list(s)
         vowels = 'aeiouAEIOU'
         l, r = 0, len(s) - 1
