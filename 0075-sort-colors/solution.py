@@ -3,17 +3,15 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-
-        z,o = 0,0
-        for n in nums:
-            if n==0:
-                z+=1
-            elif n==1:
-                o+=1
-        for i in range(0,z):
-            nums[i]=0
-        for i in range(z,z+o):
-            nums[i]=1
-        for i in range(z+o,len(nums)):
-            nums[i]=2                
-
+        #modification of two pointer approach, using three pointers
+        l,c,h = 0,0,len(nums)-1
+        while c<=h:
+            if nums[c]==0:
+                nums[l],nums[c] = nums[c],nums[l]
+                l+=1
+                c+=1
+            elif nums[c]==2:
+                nums[h],nums[c] = nums[c],nums[h]
+                h-=1
+            else:
+                c+=1        
