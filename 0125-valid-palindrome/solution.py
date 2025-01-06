@@ -2,12 +2,16 @@
 import string
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        chars = set(string.ascii_lowercase+string.digits)
-        s = [c for c in s.lower() if c   in chars ]
+        # two pointer technique with string normalization
         l,r = 0,len(s)-1
         while l<r:
-            if s[l].lower()!=s[r].lower():
+            while l<r and not s[l].isalnum():
+                l+=1
+            while l<r and not s[r].isalnum():
+                r-=1
+            if s[l].lower()!= s[r].lower():
                 return False
             l+=1
             r-=1
-        return True
+        return True            
+
