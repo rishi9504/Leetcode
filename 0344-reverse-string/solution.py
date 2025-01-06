@@ -3,10 +3,11 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        i=0
-        while(i!=len(s)//2):
-            t=s[i]
-            s[i]=s[len(s)-1-i]
-            s[len(s)-1-i]=t 
-            i+=1
+        # two pointer approach, use pointers at extreme points and swap unit l<r
+        l,r = 0,len(s)-1
+        while l<r:
+            s[l],s[r] = s[r],s[l]
+            l+=1
+            r-=1
+
         
