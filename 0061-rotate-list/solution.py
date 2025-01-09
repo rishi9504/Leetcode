@@ -11,7 +11,7 @@ class Solution:
         cur = head
         # count length of ll
         while cur.next:
-            cur = cur=cur.next
+            cur=cur.next
             l+=1
             
         tail = cur
