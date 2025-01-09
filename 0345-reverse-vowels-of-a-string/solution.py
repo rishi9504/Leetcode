@@ -1,20 +1,15 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
-        # two pointer approach, convert string to list and check the left and right locs
-        # if not vowel then move forward in l and back in r, if vowel then swap and change l,r
-        s = list(s)
-        vowels = 'aeiouAEIOU'
-        l, r = 0, len(s) - 1
+        s=list(s)
+        l,r=0,len(s)-1
+        vowels = set('aeiouAEIOU')
+        while l<r:
+            while l<r and s[l] not in vowels:
+                l+=1
+            while l<r and s[r] not in vowels:
+                r-=1
+            s[l],s[r]=s[r],s[l]
+            r-=1
+            l+=1
 
-        while (l < r):
-            while (l < r and s[l] not in vowels):
-                l += 1
-            while (r > l and s[r] not in vowels):
-                r -= 1
-            s [l], s[r] = s[r], s[l]
-
-            l +=1
-            r -=1
-            
-        return "".join(s)
-        
+        return ''.join(s)
