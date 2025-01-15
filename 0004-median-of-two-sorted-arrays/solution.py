@@ -1,43 +1,26 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        # l = len(nums1)+len(nums2)
-        # m = l//2
-        # a1,a2 = nums1[:m],nums2[:m]
-
-        # a1l = a1[-1]
-        # a2f = a1[0]
-        # if a1l<a2f:
-        #     try:
-        #         return a1[m]
-        #     except:
-        #         pass
-                
-        #     try:
-        #         return a2[m%len(a1)]
-        #     except:
-        #         pass
-                
-
+        # Combine the two input sorted arrays into a single list
+        combined = nums1 + nums2
         
-        # if a2 and a2[-1] > a1[-1]:
-        #     return a2[-1]
-        # if a1 and a2[-1] <= a1[-1]:
-        #     return a1[-1]
-        # for i,j in zip(a1[::-1],a2[::-1]):
-        #     if 
-
-        # nlogn solution
-        c= nums1+nums2
-        c.sort()
-        n = len(c)
-
-        if n%2!=0:
-            med = c[int(n/2)]
+        # Sort the combined list; sorting is O(n log n)
+        combined.sort()
+        
+        # Calculate the total number of elements in the combined list
+        total_length = len(combined)
+        
+        # Check if the number of elements is odd
+        if total_length % 2 != 0:
+            # If odd, the median is the middle element
+            median = combined[total_length // 2]
         else:
-            b=int(n/2)
-            a=b-1
-            med = (c[a]+c[b])/2
-        return med   
+            # If even, the median is the average of the two middle elements
+            mid1 = total_length // 2
+            mid2 = mid1 - 1
+            median = (combined[mid1] + combined[mid2]) / 2
+        
+        # Return the calculated median value
+        return median
 
 
 
