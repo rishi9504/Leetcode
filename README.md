@@ -31,6 +31,9 @@ https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problem
 #### Backtracking Pattern
 https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26
 
+#### Graph Problems
+https://leetcode.com/discuss/study-guide/1326900/graph-algorithms-problems-to-practice
+
 #### Dynamic Programming Patterns
 https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns
 
