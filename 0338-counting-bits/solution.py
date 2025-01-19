@@ -6,9 +6,9 @@ class Solution:
         #     s =i/2
         #     sol[s]=s+
         res = [0]*(n+1)
-        o = 1
+        s = 1
         for i in range(1,n+1):
-            if o * 2 == i:
-                o=i
-            res[i] = 1 + res[i-o]
+            if s == i/2:
+                s=i
+            res[i] = 1 + res[i-s]
         return res        
