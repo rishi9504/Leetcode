@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Dashboard</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --surface2: #21262d;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --green: #3fb950;
+            --yellow: #d29922;
+            --red: #f85149;
+            --orange: #d18616;
+            --purple: #bc8cff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            line-height: 1.5;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 8px; }
+        h2 { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 20px; font-weight: 400; }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .header-actions { display: flex; gap: 10px; align-items: center; }
+
+        /* Metric Cards */
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card .number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .card .label {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 4px;
+        }
+        .card.easy .number { color: var(--green); }
+        .card.medium .number { color: var(--yellow); }
+        .card.hard .number { color: var(--red); }
+        .card.total .number { color: var(--accent); }
+        .card.review .number { color: var(--orange); }
+        .card.redo .number { color: var(--purple); }
+
+        /* Charts Row */
+        .charts-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 900px) {
+            .charts-row { grid-template-columns: 1fr; }
+        }
+        .chart-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .chart-card h3 { margin-bottom: 16px; font-size: 1rem; }
+
+        /* Donut Chart */
+        .donut-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        .donut-svg { width: 160px; height: 160px; }
+        .legend { list-style: none; }
+        .legend li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        /* Bar Chart */
+        .bar-chart { display: flex; flex-direction: column; gap: 8px; }
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .bar-label {
+            min-width: 140px;
+            text-align: right;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .bar-track {
+            flex: 1;
+            height: 22px;
+            background: var(--surface2);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .bar-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 4px;
+            transition: width 0.4s ease;
+            min-width: 2px;
+        }
+        .bar-count {
+            min-width: 30px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        input, select, button {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            outline: none;
+        }
+        input:focus, select:focus { border-color: var(--accent); }
+        input[type="text"] { min-width: 240px; }
+        button {
+            cursor: pointer;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            padding: 8px 16px;
+        }
+        button:hover { opacity: 0.9; }
+        button.secondary {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+        button.secondary:hover { border-color: var(--accent); }
+
+        /* Table */
+        .table-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th {
+            background: var(--surface2);
+            padding: 12px 14px;
+            text-align: left;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            user-select: none;
+            position: sticky;
+            top: 0;
+        }
+        th:hover { color: var(--accent); }
+        th .sort-arrow { margin-left: 4px; font-size: 0.7rem; }
+        td {
+            padding: 10px 14px;
+            border-top: 1px solid var(--border);
+            vertical-align: top;
+        }
+        tr:hover td { background: rgba(88, 166, 255, 0.04); }
+
+        /* Difficulty badges */
+        .badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+        .badge-easy { background: rgba(63, 185, 80, 0.15); color: var(--green); }
+        .badge-medium { background: rgba(210, 153, 34, 0.15); color: var(--yellow); }
+        .badge-hard { background: rgba(248, 81, 73, 0.15); color: var(--red); }
+        .badge-unknown { background: rgba(139, 148, 158, 0.15); color: var(--text-muted); }
+
+        /* Status badges */
+        .status-solved { color: var(--green); }
+        .status-needs-review { color: var(--orange); }
+        .status-redo { color: var(--red); }
+
+        /* Pattern tags */
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            background: rgba(88, 166, 255, 0.1);
+            color: var(--accent);
+            white-space: nowrap;
+        }
+
+        /* Strategy cell */
+        .strategy-cell {
+            max-width: 300px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+        .strategy-cell.truncated {
+            cursor: pointer;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-overlay.active { display: flex; }
+        .modal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 28px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+        .modal h3 { margin-bottom: 20px; }
+        .form-group {
+            margin-bottom: 16px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+        }
+        .form-group textarea {
+            min-height: 80px;
+            resize: vertical;
+            font-family: inherit;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        .form-group textarea:focus { border-color: var(--accent); outline: none; }
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+        }
+        .pagination-info { color: var(--text-muted); font-size: 0.85rem; }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--green);
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            z-index: 2000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+
+        /* Summary stats above table */
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .table-header .count { color: var(--text-muted); font-size: 0.9rem; }
+
+        .clickable-row { cursor: pointer; }
+
+        /* Code Viewer */
+        .code-viewer {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 14px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.82rem;
+            line-height: 1.6;
+            overflow-x: auto;
+            white-space: pre;
+            color: var(--text);
+            max-height: 350px;
+            overflow-y: auto;
+            margin-top: 4px;
+        }
+        .code-toggle {
+            cursor: pointer;
+            color: var(--accent);
+            font-size: 0.85rem;
+            padding: 6px 0;
+            user-select: none;
+        }
+        .code-toggle:hover { text-decoration: underline; }
+
+        /* Acceptance rate */
+        .ac-rate {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* LeetCode tags in modal */
+        .lc-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 4px;
+        }
+        .lc-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            background: rgba(188, 140, 255, 0.1);
+            color: var(--purple);
+        }
+
+        /* LeetCode link */
+        .lc-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+        .lc-link:hover { text-decoration: underline; }
+
+        /* Source badge */
+        .source-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            margin-left: 8px;
+        }
+        .source-folder { background: rgba(63,185,80,0.1); color: var(--green); }
+        .source-leetcode { background: rgba(88,166,255,0.1); color: var(--accent); }
+        .source-loose { background: rgba(210,153,34,0.1); color: var(--yellow); }
+
+        /* Tabs in modal */
+        .modal-tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        .modal-tab {
+            padding: 8px 16px;
+            cursor: pointer;
+            color: var(--text-muted);
+            border-bottom: 2px solid transparent;
+            font-size: 0.9rem;
+        }
+        .modal-tab:hover { color: var(--text); }
+        .modal-tab.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>LeetCode Dashboard</h1>
+            <h2>Track your progress, patterns, and strategies</h2>
+        </div>
+        <div class="header-actions">
+            <button class="secondary" onclick="exportJSON()">Export JSON</button>
+            <button onclick="document.getElementById('fileInput').click()">Import JSON</button>
+            <input type="file" id="fileInput" accept=".json" style="display:none" onchange="importJSON(event)">
+        </div>
+    </div>
+
+    <!-- Metric Cards -->
+    <div class="metrics" id="metrics"></div>
+
+    <!-- Charts -->
+    <div class="charts-row">
+        <div class="chart-card">
+            <h3>Difficulty Distribution</h3>
+            <div class="donut-container" id="donutChart"></div>
+        </div>
+        <div class="chart-card">
+            <h3>Top DSA Patterns</h3>
+            <div class="bar-chart" id="patternChart"></div>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+        <input type="text" id="searchInput" placeholder="Search by name or number..." oninput="renderTable()">
+        <select id="difficultyFilter" onchange="renderTable()">
+            <option value="">All Difficulties</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+            <option value="">Unknown</option>
+        </select>
+        <select id="statusFilter" onchange="renderTable()">
+            <option value="">All Statuses</option>
+            <option value="solved">Solved</option>
+            <option value="needs-review">Needs Review</option>
+            <option value="redo">Redo</option>
+        </select>
+        <select id="patternFilter" onchange="renderTable()">
+            <option value="">All Patterns</option>
+        </select>
+        <select id="sourceFilter" onchange="renderTable()">
+            <option value="">All Sources</option>
+            <option value="folder">Local Repo</option>
+            <option value="loose_file">Loose Files</option>
+            <option value="leetcode_api">LeetCode Only</option>
+        </select>
+        <select id="hasCodeFilter" onchange="renderTable()">
+            <option value="">Code: Any</option>
+            <option value="yes">Has Solution Code</option>
+            <option value="no">No Code Yet</option>
+        </select>
+        <button class="secondary" onclick="resetFilters()">Reset</button>
+    </div>
+
+    <!-- Table -->
+    <div class="table-header">
+        <span class="count" id="tableCount"></span>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortBy('number')"># <span class="sort-arrow" id="sort-number">▲</span></th>
+                    <th onclick="sortBy('name')">Name <span class="sort-arrow" id="sort-name"></span></th>
+                    <th onclick="sortBy('difficulty')">Difficulty <span class="sort-arrow" id="sort-difficulty"></span></th>
+                    <th onclick="sortBy('status')">Status <span class="sort-arrow" id="sort-status"></span></th>
+                    <th>Patterns</th>
+                    <th onclick="sortBy('acceptance_rate')">AC% <span class="sort-arrow" id="sort-acceptance_rate"></span></th>
+                    <th>Strategy</th>
+                    <th onclick="sortBy('redo_count')">Redo <span class="sort-arrow" id="sort-redo_count"></span></th>
+                    <th>Code</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        <div class="pagination-info" id="paginationInfo"></div>
+        <div>
+            <button class="secondary" id="prevBtn" onclick="changePage(-1)">← Prev</button>
+            <button class="secondary" id="nextBtn" onclick="changePage(1)">Next →</button>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal-overlay" id="editModal">
+        <div class="modal" style="max-width:700px">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+                <h3 id="modalTitle">Edit Problem</h3>
+                <a id="modalLcLink" class="lc-link" href="#" target="_blank" style="display:none">Open on LeetCode ↗</a>
+            </div>
+            <div id="modalMeta" style="margin-bottom:12px;font-size:0.85rem;color:var(--text-muted)"></div>
+            <input type="hidden" id="editIndex">
+
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="switchTab('details')">Details</div>
+                <div class="modal-tab" onclick="switchTab('code')" id="codeTabBtn">Solution Code</div>
+            </div>
+
+            <!-- Details Tab -->
+            <div class="tab-content active" id="tab-details">
+                <div class="form-group">
+                    <label>Difficulty</label>
+                    <select id="editDifficulty">
+                        <option value="">Unknown</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Status</label>
+                    <select id="editStatus">
+                        <option value="solved">Solved</option>
+                        <option value="needs-review">Needs Review</option>
+                        <option value="redo">Redo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>DSA Patterns (comma-separated)</label>
+                    <input type="text" id="editPatterns" placeholder="e.g. two pointer, hash map, sliding window">
+                </div>
+                <div class="form-group" id="lcTagsGroup" style="display:none">
+                    <label>LeetCode Tags</label>
+                    <div class="lc-tags" id="editLcTags"></div>
+                </div>
+                <div class="form-group">
+                    <label>Solving Strategy</label>
+                    <textarea id="editStrategy" placeholder="How did you solve it? Key insight?"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Notes</label>
+                    <textarea id="editNotes" placeholder="Any additional notes, edge cases, etc."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Redo Count</label>
+                    <input type="number" id="editRedoCount" min="0" value="0">
+                </div>
+            </div>
+
+            <!-- Code Tab -->
+            <div class="tab-content" id="tab-code">
+                <div id="codeContent" style="color:var(--text-muted);padding:20px;text-align:center">
+                    No solution code fetched yet.<br>Run <code>python dashboard/fetch_leetcode.py</code> to fetch your accepted solutions.
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button class="secondary" onclick="closeModal()">Cancel</button>
+                <button onclick="saveEdit()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">Saved!</div>
+
+    <script>
+    let problems = [];
+    let currentSort = { key: 'number', asc: true };
+    let currentPage = 1;
+    const PAGE_SIZE = 50;
+
+    // ─── Data Loading ───────────────────────────────────────
+    async function loadData() {
+        try {
+            const resp = await fetch('problems.json');
+            if (!resp.ok) throw new Error('No problems.json found');
+            problems = await resp.json();
+        } catch (e) {
+            // Try to load from localStorage as fallback
+            const saved = localStorage.getItem('leetcode_problems');
+            if (saved) {
+                problems = JSON.parse(saved);
+            } else {
+                document.getElementById('tableBody').innerHTML =
+                    '<tr><td colspan="9" class="empty-state">No data found. Run <code>python dashboard/generate_data.py</code> first, then open this file.</td></tr>';
+                return;
+            }
+        }
+        renderAll();
+    }
+
+    function saveToLocalStorage() {
+        localStorage.setItem('leetcode_problems', JSON.stringify(problems));
+    }
+
+    // ─── Rendering ──────────────────────────────────────────
+    function renderAll() {
+        renderMetrics();
+        renderDonut();
+        renderPatternChart();
+        populatePatternFilter();
+        renderTable();
+    }
+
+    function renderMetrics() {
+        const total = problems.length;
+        const easy = problems.filter(p => p.difficulty === 'Easy').length;
+        const medium = problems.filter(p => p.difficulty === 'Medium').length;
+        const hard = problems.filter(p => p.difficulty === 'Hard').length;
+        const needsReview = problems.filter(p => p.status === 'needs-review').length;
+        const redo = problems.filter(p => p.status === 'redo').length;
+
+        document.getElementById('metrics').innerHTML = `
+            <div class="card total"><div class="number">${total}</div><div class="label">Total Solved</div></div>
+            <div class="card easy"><div class="number">${easy}</div><div class="label">Easy</div></div>
+            <div class="card medium"><div class="number">${medium}</div><div class="label">Medium</div></div>
+            <div class="card hard"><div class="number">${hard}</div><div class="label">Hard</div></div>
+            <div class="card review"><div class="number">${needsReview}</div><div class="label">Needs Review</div></div>
+            <div class="card redo"><div class="number">${redo}</div><div class="label">To Redo</div></div>
+        `;
+    }
+
+    function renderDonut() {
+        const easy = problems.filter(p => p.difficulty === 'Easy').length;
+        const medium = problems.filter(p => p.difficulty === 'Medium').length;
+        const hard = problems.filter(p => p.difficulty === 'Hard').length;
+        const unknown = problems.filter(p => !p.difficulty).length;
+        const total = problems.length || 1;
+
+        const data = [
+            { label: 'Easy', value: easy, color: '#3fb950' },
+            { label: 'Medium', value: medium, color: '#d29922' },
+            { label: 'Hard', value: hard, color: '#f85149' },
+            { label: 'Unknown', value: unknown, color: '#8b949e' },
+        ].filter(d => d.value > 0);
+
+        let cumulativePercent = 0;
+        const segments = data.map(d => {
+            const percent = d.value / total;
+            const dashArray = `${percent * 100} ${100 - percent * 100}`;
+            const dashOffset = 25 - cumulativePercent * 100;
+            cumulativePercent += percent;
+            return `<circle cx="16" cy="16" r="15.915" fill="none" stroke="${d.color}" stroke-width="3.5"
+                stroke-dasharray="${dashArray}" stroke-dashoffset="${dashOffset}" />`;
+        }).join('');
+
+        const legend = data.map(d =>
+            `<li><span class="legend-dot" style="background:${d.color}"></span>${d.label}: ${d.value} (${Math.round(d.value/total*100)}%)</li>`
+        ).join('');
+
+        document.getElementById('donutChart').innerHTML = `
+            <svg class="donut-svg" viewBox="0 0 32 32">
+                ${segments}
+                <text x="16" y="16" text-anchor="middle" dy=".1em" fill="var(--text)" font-size="4" font-weight="700">${total}</text>
+                <text x="16" y="20" text-anchor="middle" fill="var(--text-muted)" font-size="2">total</text>
+            </svg>
+            <ul class="legend">${legend}</ul>
+        `;
+    }
+
+    function renderPatternChart() {
+        const patternCount = {};
+        problems.forEach(p => {
+            (p.patterns || []).forEach(pat => {
+                patternCount[pat] = (patternCount[pat] || 0) + 1;
+            });
+        });
+
+        const sorted = Object.entries(patternCount).sort((a, b) => b[1] - a[1]).slice(0, 12);
+        if (sorted.length === 0) {
+            document.getElementById('patternChart').innerHTML = '<div class="empty-state">No patterns detected yet</div>';
+            return;
+        }
+        const max = sorted[0][1];
+
+        document.getElementById('patternChart').innerHTML = sorted.map(([name, count]) => `
+            <div class="bar-row">
+                <span class="bar-label">${name}</span>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: ${(count / max * 100)}%"></div>
+                </div>
+                <span class="bar-count">${count}</span>
+            </div>
+        `).join('');
+    }
+
+    function populatePatternFilter() {
+        const patterns = new Set();
+        problems.forEach(p => (p.patterns || []).forEach(pat => patterns.add(pat)));
+        const sel = document.getElementById('patternFilter');
+        const current = sel.value;
+        sel.innerHTML = '<option value="">All Patterns</option>' +
+            [...patterns].sort().map(p => `<option value="${p}">${p}</option>`).join('');
+        sel.value = current;
+    }
+
+    function getFiltered() {
+        const search = document.getElementById('searchInput').value.toLowerCase();
+        const diff = document.getElementById('difficultyFilter').value;
+        const status = document.getElementById('statusFilter').value;
+        const pattern = document.getElementById('patternFilter').value;
+        const source = document.getElementById('sourceFilter').value;
+        const hasCode = document.getElementById('hasCodeFilter').value;
+
+        return problems.filter(p => {
+            if (search && !`${p.number} ${p.name}`.toLowerCase().includes(search)) return false;
+            if (diff && p.difficulty !== diff) return false;
+            if (status && p.status !== status) return false;
+            if (pattern && !(p.patterns || []).includes(pattern)) return false;
+            if (source && p.source !== source) return false;
+            if (hasCode === 'yes' && !p.leetcode_solution) return false;
+            if (hasCode === 'no' && p.leetcode_solution) return false;
+            return true;
+        });
+    }
+
+    function renderTable() {
+        const filtered = getFiltered();
+
+        // Sort
+        filtered.sort((a, b) => {
+            let av = a[currentSort.key] ?? '';
+            let bv = b[currentSort.key] ?? '';
+            if (typeof av === 'string') av = av.toLowerCase();
+            if (typeof bv === 'string') bv = bv.toLowerCase();
+            if (av < bv) return currentSort.asc ? -1 : 1;
+            if (av > bv) return currentSort.asc ? 1 : -1;
+            return 0;
+        });
+
+        // Pagination
+        const totalPages = Math.ceil(filtered.length / PAGE_SIZE) || 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+        const start = (currentPage - 1) * PAGE_SIZE;
+        const page = filtered.slice(start, start + PAGE_SIZE);
+
+        document.getElementById('tableCount').textContent = `Showing ${filtered.length} of ${problems.length} problems`;
+        document.getElementById('paginationInfo').textContent = `Page ${currentPage} of ${totalPages}`;
+        document.getElementById('prevBtn').disabled = currentPage <= 1;
+        document.getElementById('nextBtn').disabled = currentPage >= totalPages;
+
+        // Update sort arrows
+        document.querySelectorAll('.sort-arrow').forEach(el => el.textContent = '');
+        const arrow = document.getElementById(`sort-${currentSort.key}`);
+        if (arrow) arrow.textContent = currentSort.asc ? '▲' : '▼';
+
+        if (page.length === 0) {
+            document.getElementById('tableBody').innerHTML =
+                '<tr><td colspan="9" class="empty-state">No problems match your filters</td></tr>';
+            return;
+        }
+
+        document.getElementById('tableBody').innerHTML = page.map(p => {
+            const idx = problems.indexOf(p);
+            const diffClass = (p.difficulty || 'unknown').toLowerCase();
+            const statusClass = (p.status || 'solved').replace(' ', '-');
+            const statusLabel = { 'solved': '✓ Solved', 'needs-review': '⟳ Review', 'redo': '↻ Redo' }[p.status] || p.status;
+            const patterns = (p.patterns || []).map(pat => `<span class="tag">${pat}</span>`).join('');
+            const strategy = (p.strategy || '').length > 100
+                ? `<span class="strategy-cell truncated" title="${escapeHtml(p.strategy)}">${escapeHtml(p.strategy.slice(0, 100))}…</span>`
+                : `<span class="strategy-cell">${escapeHtml(p.strategy || '—')}</span>`;
+            const acRate = p.acceptance_rate ? `<span class="ac-rate">${p.acceptance_rate}%</span>` : '<span class="ac-rate">—</span>';
+            const hasCode = p.leetcode_solution ? '✓' : '—';
+            const codeColor = p.leetcode_solution ? 'color:var(--green)' : 'color:var(--text-muted)';
+
+            return `<tr class="clickable-row" onclick="openEdit(${idx})">
+                <td><strong>${p.number}</strong></td>
+                <td>${escapeHtml(p.name)}</td>
+                <td><span class="badge badge-${diffClass}">${p.difficulty || '?'}</span></td>
+                <td><span class="status-${statusClass}">${statusLabel}</span></td>
+                <td>${patterns || '<span style="color:var(--text-muted)">—</span>'}</td>
+                <td>${acRate}</td>
+                <td>${strategy}</td>
+                <td>${p.redo_count || 0}</td>
+                <td style="${codeColor};text-align:center">${hasCode}</td>
+            </tr>`;
+        }).join('');
+    }
+
+    // ─── Sorting ────────────────────────────────────────────
+    function sortBy(key) {
+        if (currentSort.key === key) {
+            currentSort.asc = !currentSort.asc;
+        } else {
+            currentSort = { key, asc: true };
+        }
+        renderTable();
+    }
+
+    function changePage(delta) {
+        currentPage += delta;
+        renderTable();
+    }
+
+    function resetFilters() {
+        document.getElementById('searchInput').value = '';
+        document.getElementById('difficultyFilter').value = '';
+        document.getElementById('statusFilter').value = '';
+        document.getElementById('patternFilter').value = '';
+        document.getElementById('sourceFilter').value = '';
+        document.getElementById('hasCodeFilter').value = '';
+        currentPage = 1;
+        renderTable();
+    }
+
+    // ─── Tab Switching ──────────────────────────────────────
+    function switchTab(tabName) {
+        document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+        document.querySelector(`.modal-tab[onclick="switchTab('${tabName}')"]`).classList.add('active');
+        document.getElementById(`tab-${tabName}`).classList.add('active');
+    }
+
+    // ─── Edit Modal ─────────────────────────────────────────
+    function openEdit(idx) {
+        const p = problems[idx];
+        document.getElementById('editIndex').value = idx;
+        document.getElementById('modalTitle').textContent = `#${p.number} — ${p.name}`;
+        document.getElementById('editDifficulty').value = p.difficulty || '';
+        document.getElementById('editStatus').value = p.status || 'solved';
+        document.getElementById('editPatterns').value = (p.patterns || []).join(', ');
+        document.getElementById('editStrategy').value = p.strategy || '';
+        document.getElementById('editNotes').value = p.notes || '';
+        document.getElementById('editRedoCount').value = p.redo_count || 0;
+
+        // LeetCode link
+        const lcLink = document.getElementById('modalLcLink');
+        if (p.leetcode_slug) {
+            lcLink.href = `https://leetcode.com/problems/${p.leetcode_slug}/`;
+            lcLink.style.display = 'inline';
+        } else {
+            lcLink.style.display = 'none';
+        }
+
+        // Meta info (acceptance rate, source)
+        let meta = [];
+        if (p.acceptance_rate) meta.push(`Acceptance: ${p.acceptance_rate}%`);
+        if (p.solution_runtime) meta.push(`Runtime: ${p.solution_runtime}`);
+        if (p.solution_memory) meta.push(`Memory: ${p.solution_memory}`);
+        if (p.solution_language) meta.push(`Language: ${p.solution_language}`);
+        const sourceLabel = {'folder': 'Local repo', 'loose_file': 'Loose file', 'leetcode_api': 'LeetCode only'}[p.source] || p.source;
+        meta.push(`Source: ${sourceLabel}`);
+        document.getElementById('modalMeta').textContent = meta.join('  •  ');
+
+        // LeetCode tags
+        const tagsGroup = document.getElementById('lcTagsGroup');
+        const tagsContainer = document.getElementById('editLcTags');
+        if (p.leetcode_tags && p.leetcode_tags.length > 0) {
+            tagsContainer.innerHTML = p.leetcode_tags.map(t => `<span class="lc-tag">${escapeHtml(t)}</span>`).join('');
+            tagsGroup.style.display = 'block';
+        } else {
+            tagsGroup.style.display = 'none';
+        }
+
+        // Code tab
+        const codeContent = document.getElementById('codeContent');
+        const codeTabBtn = document.getElementById('codeTabBtn');
+        if (p.leetcode_solution) {
+            codeContent.innerHTML = `<div class="code-viewer">${escapeHtml(p.leetcode_solution)}</div>`;
+            codeTabBtn.textContent = `Solution Code (${p.solution_language || 'Code'})`;
+        } else {
+            codeContent.innerHTML = `<div style="color:var(--text-muted);padding:20px;text-align:center">
+                No solution code fetched yet.<br>
+                Run <code>python dashboard/fetch_leetcode.py</code> to fetch your accepted solutions.
+            </div>`;
+            codeTabBtn.textContent = 'Solution Code';
+        }
+
+        // Reset to details tab
+        switchTab('details');
+
+        document.getElementById('editModal').classList.add('active');
+    }
+
+    function closeModal() {
+        document.getElementById('editModal').classList.remove('active');
+    }
+
+    function saveEdit() {
+        const idx = parseInt(document.getElementById('editIndex').value);
+        const p = problems[idx];
+        p.difficulty = document.getElementById('editDifficulty').value;
+        p.status = document.getElementById('editStatus').value;
+        p.patterns = document.getElementById('editPatterns').value
+            .split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+        p.strategy = document.getElementById('editStrategy').value;
+        p.notes = document.getElementById('editNotes').value;
+        p.redo_count = parseInt(document.getElementById('editRedoCount').value) || 0;
+        p.last_reviewed = new Date().toISOString().split('T')[0];
+
+        saveToLocalStorage();
+        closeModal();
+        renderAll();
+        showToast('Saved! Run export to update problems.json');
+    }
+
+    // ─── Import / Export ────────────────────────────────────
+    function exportJSON() {
+        const blob = new Blob([JSON.stringify(problems, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'problems.json';
+        a.click();
+        URL.revokeObjectURL(url);
+        showToast('Exported! Replace dashboard/problems.json with the downloaded file.');
+    }
+
+    function importJSON(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            try {
+                problems = JSON.parse(e.target.result);
+                saveToLocalStorage();
+                renderAll();
+                showToast(`Imported ${problems.length} problems`);
+            } catch (err) {
+                alert('Invalid JSON file');
+            }
+        };
+        reader.readAsText(file);
+        event.target.value = '';
+    }
+
+    // ─── Helpers ────────────────────────────────────────────
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+    }
+
+    function showToast(msg) {
+        const toast = document.getElementById('toast');
+        toast.textContent = msg;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 3000);
+    }
+
+    // Close modal on overlay click
+    document.getElementById('editModal').addEventListener('click', (e) => {
+        if (e.target === e.currentTarget) closeModal();
+    });
+
+    // Close modal on Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+    });
+
+    // ─── Init ───────────────────────────────────────────────
+    loadData();
+    </script>
+</body>
+</html>
