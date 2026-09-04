@@ -1,0 +1,2674 @@
+{
+  "two-sum": {
+    "folder": "0001-two-sum",
+    "sync_id": "0001",
+    "leetcode_id": 1,
+    "slug": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy"
+  },
+  "add-two-numbers": {
+    "folder": "0002-add-two-numbers",
+    "sync_id": "0002",
+    "leetcode_id": 2,
+    "slug": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "difficulty": "Medium"
+  },
+  "longest-substring-without-repeating-characters": {
+    "folder": "0003-longest-substring-without-repeating-characters",
+    "sync_id": "0003",
+    "leetcode_id": 3,
+    "slug": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium"
+  },
+  "median-of-two-sorted-arrays": {
+    "folder": "0004-median-of-two-sorted-arrays",
+    "sync_id": "0004",
+    "leetcode_id": 4,
+    "slug": "median-of-two-sorted-arrays",
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard"
+  },
+  "longest-palindromic-substring": {
+    "folder": "0005-longest-palindromic-substring",
+    "sync_id": "0005",
+    "leetcode_id": 5,
+    "slug": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium"
+  },
+  "zigzag-conversion": {
+    "folder": "0006-zigzag-conversion",
+    "sync_id": "0006",
+    "leetcode_id": 6,
+    "slug": "zigzag-conversion",
+    "title": "Zigzag Conversion",
+    "difficulty": "Medium"
+  },
+  "reverse-integer": {
+    "folder": "0007-reverse-integer",
+    "sync_id": "0007",
+    "leetcode_id": 7,
+    "slug": "reverse-integer",
+    "title": "Reverse Integer",
+    "difficulty": "Medium"
+  },
+  "string-to-integer-atoi": {
+    "folder": "0008-string-to-integer-atoi",
+    "sync_id": "0008",
+    "leetcode_id": 8,
+    "slug": "string-to-integer-atoi",
+    "title": "String to Integer (atoi)",
+    "difficulty": "Medium"
+  },
+  "palindrome-number": {
+    "folder": "0009-palindrome-number",
+    "sync_id": "0009",
+    "leetcode_id": 9,
+    "slug": "palindrome-number",
+    "title": "Palindrome Number",
+    "difficulty": "Easy"
+  },
+  "regular-expression-matching": {
+    "folder": "0010-regular-expression-matching",
+    "sync_id": "0010",
+    "leetcode_id": 10,
+    "slug": "regular-expression-matching",
+    "title": "Regular Expression Matching",
+    "difficulty": "Hard"
+  },
+  "container-with-most-water": {
+    "folder": "0011-container-with-most-water",
+    "sync_id": "0011",
+    "leetcode_id": 11,
+    "slug": "container-with-most-water",
+    "title": "Container With Most Water",
+    "difficulty": "Medium"
+  },
+  "integer-to-roman": {
+    "folder": "0012-integer-to-roman",
+    "sync_id": "0012",
+    "leetcode_id": 12,
+    "slug": "integer-to-roman",
+    "title": "Integer to Roman",
+    "difficulty": "Medium"
+  },
+  "roman-to-integer": {
+    "folder": "0013-roman-to-integer",
+    "sync_id": "0013",
+    "leetcode_id": 13,
+    "slug": "roman-to-integer",
+    "title": "Roman to Integer",
+    "difficulty": "Easy"
+  },
+  "longest-common-prefix": {
+    "folder": "0014-longest-common-prefix",
+    "sync_id": "0014",
+    "leetcode_id": 14,
+    "slug": "longest-common-prefix",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy"
+  },
+  "3sum": {
+    "folder": "0015-3sum",
+    "sync_id": "0015",
+    "leetcode_id": 15,
+    "slug": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium"
+  },
+  "3sum-closest": {
+    "folder": "0016-3sum-closest",
+    "sync_id": "0016",
+    "leetcode_id": 16,
+    "slug": "3sum-closest",
+    "title": "3Sum Closest",
+    "difficulty": "Medium"
+  },
+  "letter-combinations-of-a-phone-number": {
+    "folder": "0017-letter-combinations-of-a-phone-number",
+    "sync_id": "0017",
+    "leetcode_id": 17,
+    "slug": "letter-combinations-of-a-phone-number",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium"
+  },
+  "4sum": {
+    "folder": "0018-4sum",
+    "sync_id": "0018",
+    "leetcode_id": 18,
+    "slug": "4sum",
+    "title": "4Sum",
+    "difficulty": "Medium"
+  },
+  "remove-nth-node-from-end-of-list": {
+    "folder": "0019-remove-nth-node-from-end-of-list",
+    "sync_id": "0019",
+    "leetcode_id": 19,
+    "slug": "remove-nth-node-from-end-of-list",
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium"
+  },
+  "valid-parentheses": {
+    "folder": "0020-valid-parentheses",
+    "sync_id": "0020",
+    "leetcode_id": 20,
+    "slug": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy"
+  },
+  "merge-two-sorted-lists": {
+    "folder": "0021-merge-two-sorted-lists",
+    "sync_id": "0021",
+    "leetcode_id": 21,
+    "slug": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy"
+  },
+  "generate-parentheses": {
+    "folder": "0022-generate-parentheses",
+    "sync_id": "0022",
+    "leetcode_id": 22,
+    "slug": "generate-parentheses",
+    "title": "Generate Parentheses",
+    "difficulty": "Medium"
+  },
+  "swap-nodes-in-pairs": {
+    "folder": "0024-swap-nodes-in-pairs",
+    "sync_id": "0024",
+    "leetcode_id": 24,
+    "slug": "swap-nodes-in-pairs",
+    "title": "Swap Nodes in Pairs",
+    "difficulty": "Medium"
+  },
+  "remove-duplicates-from-sorted-array": {
+    "folder": "0026-remove-duplicates-from-sorted-array",
+    "sync_id": "0026",
+    "leetcode_id": 26,
+    "slug": "remove-duplicates-from-sorted-array",
+    "title": "Remove Duplicates from Sorted Array",
+    "difficulty": "Easy"
+  },
+  "remove-element": {
+    "folder": "0027-remove-element",
+    "sync_id": "0027",
+    "leetcode_id": 27,
+    "slug": "remove-element",
+    "title": "Remove Element",
+    "difficulty": "Easy"
+  },
+  "find-the-index-of-the-first-occurrence-in-a-string": {
+    "folder": "0028-find-the-index-of-the-first-occurrence-in-a-string",
+    "sync_id": "0028",
+    "leetcode_id": 28,
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "title": "Find the Index of the First Occurrence in a String",
+    "difficulty": "Easy"
+  },
+  "next-permutation": {
+    "folder": "0031-next-permutation",
+    "sync_id": "0031",
+    "leetcode_id": 31,
+    "slug": "next-permutation",
+    "title": "Next Permutation",
+    "difficulty": "Medium"
+  },
+  "longest-valid-parentheses": {
+    "folder": "0032-longest-valid-parentheses",
+    "sync_id": "0032",
+    "leetcode_id": 32,
+    "slug": "longest-valid-parentheses",
+    "title": "Longest Valid Parentheses",
+    "difficulty": "Hard"
+  },
+  "search-in-rotated-sorted-array": {
+    "folder": "0033-search-in-rotated-sorted-array",
+    "sync_id": "0033",
+    "leetcode_id": 33,
+    "slug": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium"
+  },
+  "search-insert-position": {
+    "folder": "0035-search-insert-position",
+    "sync_id": "0035",
+    "leetcode_id": 35,
+    "slug": "search-insert-position",
+    "title": "Search Insert Position",
+    "difficulty": "Easy"
+  },
+  "valid-sudoku": {
+    "folder": "0036-valid-sudoku",
+    "sync_id": "0036",
+    "leetcode_id": 36,
+    "slug": "valid-sudoku",
+    "title": "Valid Sudoku",
+    "difficulty": "Medium"
+  },
+  "sudoku-solver": {
+    "folder": "0037-sudoku-solver",
+    "sync_id": "0037",
+    "leetcode_id": 37,
+    "slug": "sudoku-solver",
+    "title": "Sudoku Solver",
+    "difficulty": "Hard"
+  },
+  "count-and-say": {
+    "folder": "0038-count-and-say",
+    "sync_id": "0038",
+    "leetcode_id": 38,
+    "slug": "count-and-say",
+    "title": "Count and Say",
+    "difficulty": "Medium"
+  },
+  "combination-sum": {
+    "folder": "0039-combination-sum",
+    "sync_id": "0039",
+    "leetcode_id": 39,
+    "slug": "combination-sum",
+    "title": "Combination Sum",
+    "difficulty": "Medium"
+  },
+  "trapping-rain-water": {
+    "folder": "0042-trapping-rain-water",
+    "sync_id": "0042",
+    "leetcode_id": 42,
+    "slug": "trapping-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard"
+  },
+  "multiply-strings": {
+    "folder": "0043-multiply-strings",
+    "sync_id": "0043",
+    "leetcode_id": 43,
+    "slug": "multiply-strings",
+    "title": "Multiply Strings",
+    "difficulty": "Medium"
+  },
+  "wildcard-matching": {
+    "folder": "0044-wildcard-matching",
+    "sync_id": "0044",
+    "leetcode_id": 44,
+    "slug": "wildcard-matching",
+    "title": "Wildcard Matching",
+    "difficulty": "Hard"
+  },
+  "jump-game-ii": {
+    "folder": "0045-jump-game-ii",
+    "sync_id": "0045",
+    "leetcode_id": 45,
+    "slug": "jump-game-ii",
+    "title": "Jump Game II",
+    "difficulty": "Medium"
+  },
+  "group-anagrams": {
+    "folder": "0049-group-anagrams",
+    "sync_id": "0049",
+    "leetcode_id": 49,
+    "slug": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium"
+  },
+  "powx-n": {
+    "folder": "0050-powx-n",
+    "sync_id": "0050",
+    "leetcode_id": 50,
+    "slug": "powx-n",
+    "title": "Pow(x, n)",
+    "difficulty": "Medium"
+  },
+  "maximum-subarray": {
+    "folder": "0053-maximum-subarray",
+    "sync_id": "0053",
+    "leetcode_id": 53,
+    "slug": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium"
+  },
+  "jump-game": {
+    "folder": "0055-jump-game",
+    "sync_id": "0055",
+    "leetcode_id": 55,
+    "slug": "jump-game",
+    "title": "Jump Game",
+    "difficulty": "Medium"
+  },
+  "length-of-last-word": {
+    "folder": "0058-length-of-last-word",
+    "sync_id": "0058",
+    "leetcode_id": 58,
+    "slug": "length-of-last-word",
+    "title": "Length of Last Word",
+    "difficulty": "Easy"
+  },
+  "rotate-list": {
+    "folder": "0061-rotate-list",
+    "sync_id": "0061",
+    "leetcode_id": 61,
+    "slug": "rotate-list",
+    "title": "Rotate List",
+    "difficulty": "Medium"
+  },
+  "valid-number": {
+    "folder": "0065-valid-number",
+    "sync_id": "0065",
+    "leetcode_id": 65,
+    "slug": "valid-number",
+    "title": "Valid Number",
+    "difficulty": "Hard"
+  },
+  "plus-one": {
+    "folder": "0066-plus-one",
+    "sync_id": "0066",
+    "leetcode_id": 66,
+    "slug": "plus-one",
+    "title": "Plus One",
+    "difficulty": "Easy"
+  },
+  "add-binary": {
+    "folder": "0067-add-binary",
+    "sync_id": "0067",
+    "leetcode_id": 67,
+    "slug": "add-binary",
+    "title": "Add Binary",
+    "difficulty": "Easy"
+  },
+  "sqrtx": {
+    "folder": "0069-sqrtx",
+    "sync_id": "0069",
+    "leetcode_id": 69,
+    "slug": "sqrtx",
+    "title": "Sqrt(x)",
+    "difficulty": "Easy"
+  },
+  "climbing-stairs": {
+    "folder": "0070-climbing-stairs",
+    "sync_id": "0070",
+    "leetcode_id": 70,
+    "slug": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "difficulty": "Easy"
+  },
+  "simplify-path": {
+    "folder": "0071-simplify-path",
+    "sync_id": "0071",
+    "leetcode_id": 71,
+    "slug": "simplify-path",
+    "title": "Simplify Path",
+    "difficulty": "Medium"
+  },
+  "search-a-2d-matrix": {
+    "folder": "0074-search-a-2d-matrix",
+    "sync_id": "0074",
+    "leetcode_id": 74,
+    "slug": "search-a-2d-matrix",
+    "title": "Search a 2D Matrix",
+    "difficulty": "Medium"
+  },
+  "sort-colors": {
+    "folder": "0075-sort-colors",
+    "sync_id": "0075",
+    "leetcode_id": 75,
+    "slug": "sort-colors",
+    "title": "Sort Colors",
+    "difficulty": "Medium"
+  },
+  "word-search": {
+    "folder": "0079-word-search",
+    "sync_id": "0079",
+    "leetcode_id": 79,
+    "slug": "word-search",
+    "title": "Word Search",
+    "difficulty": "Medium"
+  },
+  "remove-duplicates-from-sorted-array-ii": {
+    "folder": "0080-remove-duplicates-from-sorted-array-ii",
+    "sync_id": "0080",
+    "leetcode_id": 80,
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "title": "Remove Duplicates from Sorted Array II",
+    "difficulty": "Medium"
+  },
+  "search-in-rotated-sorted-array-ii": {
+    "folder": "0081-search-in-rotated-sorted-array-ii",
+    "sync_id": "0081",
+    "leetcode_id": 81,
+    "slug": "search-in-rotated-sorted-array-ii",
+    "title": "Search in Rotated Sorted Array II",
+    "difficulty": "Medium"
+  },
+  "remove-duplicates-from-sorted-list": {
+    "folder": "0083-remove-duplicates-from-sorted-list",
+    "sync_id": "0083",
+    "leetcode_id": 83,
+    "slug": "remove-duplicates-from-sorted-list",
+    "title": "Remove Duplicates from Sorted List",
+    "difficulty": "Easy"
+  },
+  "partition-list": {
+    "folder": "0086-partition-list",
+    "sync_id": "0086",
+    "leetcode_id": 86,
+    "slug": "partition-list",
+    "title": "Partition List",
+    "difficulty": "Medium"
+  },
+  "merge-sorted-array": {
+    "folder": "0088-merge-sorted-array",
+    "sync_id": "0088",
+    "leetcode_id": 88,
+    "slug": "merge-sorted-array",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy"
+  },
+  "gray-code": {
+    "folder": "0089-gray-code",
+    "sync_id": "0089",
+    "leetcode_id": 89,
+    "slug": "gray-code",
+    "title": "Gray Code",
+    "difficulty": "Medium"
+  },
+  "reverse-linked-list-ii": {
+    "folder": "0092-reverse-linked-list-ii",
+    "sync_id": "0092",
+    "leetcode_id": 92,
+    "slug": "reverse-linked-list-ii",
+    "title": "Reverse Linked List II",
+    "difficulty": "Medium"
+  },
+  "binary-tree-inorder-traversal": {
+    "folder": "0094-binary-tree-inorder-traversal",
+    "sync_id": "0094",
+    "leetcode_id": 94,
+    "slug": "binary-tree-inorder-traversal",
+    "title": "Binary Tree Inorder Traversal",
+    "difficulty": "Easy"
+  },
+  "validate-binary-search-tree": {
+    "folder": "0098-validate-binary-search-tree",
+    "sync_id": "0098",
+    "leetcode_id": 98,
+    "slug": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium"
+  },
+  "recover-binary-search-tree": {
+    "folder": "0099-recover-binary-search-tree",
+    "sync_id": "0099",
+    "leetcode_id": 99,
+    "slug": "recover-binary-search-tree",
+    "title": "Recover Binary Search Tree",
+    "difficulty": "Medium"
+  },
+  "same-tree": {
+    "folder": "0100-same-tree",
+    "sync_id": "0100",
+    "leetcode_id": 100,
+    "slug": "same-tree",
+    "title": "Same Tree",
+    "difficulty": "Easy"
+  },
+  "symmetric-tree": {
+    "folder": "0101-symmetric-tree",
+    "sync_id": "0101",
+    "leetcode_id": 101,
+    "slug": "symmetric-tree",
+    "title": "Symmetric Tree",
+    "difficulty": "Easy"
+  },
+  "binary-tree-level-order-traversal": {
+    "folder": "0102-binary-tree-level-order-traversal",
+    "sync_id": "0102",
+    "leetcode_id": 102,
+    "slug": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "Medium"
+  },
+  "binary-tree-zigzag-level-order-traversal": {
+    "folder": "0103-binary-tree-zigzag-level-order-traversal",
+    "sync_id": "0103",
+    "leetcode_id": 103,
+    "slug": "binary-tree-zigzag-level-order-traversal",
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "difficulty": "Medium"
+  },
+  "maximum-depth-of-binary-tree": {
+    "folder": "0104-maximum-depth-of-binary-tree",
+    "sync_id": "0104",
+    "leetcode_id": 104,
+    "slug": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy"
+  },
+  "binary-tree-level-order-traversal-ii": {
+    "folder": "0107-binary-tree-level-order-traversal-ii",
+    "sync_id": "0107",
+    "leetcode_id": 107,
+    "slug": "binary-tree-level-order-traversal-ii",
+    "title": "Binary Tree Level Order Traversal II",
+    "difficulty": "Medium"
+  },
+  "balanced-binary-tree": {
+    "folder": "0110-balanced-binary-tree",
+    "sync_id": "0110",
+    "leetcode_id": 110,
+    "slug": "balanced-binary-tree",
+    "title": "Balanced Binary Tree",
+    "difficulty": "Easy"
+  },
+  "minimum-depth-of-binary-tree": {
+    "folder": "0111-minimum-depth-of-binary-tree",
+    "sync_id": "0111",
+    "leetcode_id": 111,
+    "slug": "minimum-depth-of-binary-tree",
+    "title": "Minimum Depth of Binary Tree",
+    "difficulty": "Easy"
+  },
+  "path-sum": {
+    "folder": "0112-path-sum",
+    "sync_id": "0112",
+    "leetcode_id": 112,
+    "slug": "path-sum",
+    "title": "Path Sum",
+    "difficulty": "Easy"
+  },
+  "path-sum-ii": {
+    "folder": "0113-path-sum-ii",
+    "sync_id": "0113",
+    "leetcode_id": 113,
+    "slug": "path-sum-ii",
+    "title": "Path Sum II",
+    "difficulty": "Medium"
+  },
+  "flatten-binary-tree-to-linked-list": {
+    "folder": "0114-flatten-binary-tree-to-linked-list",
+    "sync_id": "0114",
+    "leetcode_id": 114,
+    "slug": "flatten-binary-tree-to-linked-list",
+    "title": "Flatten Binary Tree to Linked List",
+    "difficulty": "Medium"
+  },
+  "populating-next-right-pointers-in-each-node": {
+    "folder": "0116-populating-next-right-pointers-in-each-node",
+    "sync_id": "0116",
+    "leetcode_id": 116,
+    "slug": "populating-next-right-pointers-in-each-node",
+    "title": "Populating Next Right Pointers in Each Node",
+    "difficulty": "Medium"
+  },
+  "pascals-triangle": {
+    "folder": "0118-pascals-triangle",
+    "sync_id": "0118",
+    "leetcode_id": 118,
+    "slug": "pascals-triangle",
+    "title": "Pascal's Triangle",
+    "difficulty": "Easy"
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "folder": "0121-best-time-to-buy-and-sell-stock",
+    "sync_id": "0121",
+    "leetcode_id": 121,
+    "slug": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy"
+  },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "folder": "0122-best-time-to-buy-and-sell-stock-ii",
+    "sync_id": "0122",
+    "leetcode_id": 122,
+    "slug": "best-time-to-buy-and-sell-stock-ii",
+    "title": "Best Time to Buy and Sell Stock II",
+    "difficulty": "Medium"
+  },
+  "valid-palindrome": {
+    "folder": "0125-valid-palindrome",
+    "sync_id": "0125",
+    "leetcode_id": 125,
+    "slug": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy"
+  },
+  "longest-consecutive-sequence": {
+    "folder": "0128-longest-consecutive-sequence",
+    "sync_id": "0128",
+    "leetcode_id": 128,
+    "slug": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium"
+  },
+  "sum-root-to-leaf-numbers": {
+    "folder": "0129-sum-root-to-leaf-numbers",
+    "sync_id": "0129",
+    "leetcode_id": 129,
+    "slug": "sum-root-to-leaf-numbers",
+    "title": "Sum Root to Leaf Numbers",
+    "difficulty": "Medium"
+  },
+  "surrounded-regions": {
+    "folder": "0130-surrounded-regions",
+    "sync_id": "0130",
+    "leetcode_id": 130,
+    "slug": "surrounded-regions",
+    "title": "Surrounded Regions",
+    "difficulty": "Medium"
+  },
+  "clone-graph": {
+    "folder": "0133-clone-graph",
+    "sync_id": "0133",
+    "leetcode_id": 133,
+    "slug": "clone-graph",
+    "title": "Clone Graph",
+    "difficulty": "Medium"
+  },
+  "gas-station": {
+    "folder": "0134-gas-station",
+    "sync_id": "0134",
+    "leetcode_id": 134,
+    "slug": "gas-station",
+    "title": "Gas Station",
+    "difficulty": "Medium"
+  },
+  "candy": {
+    "folder": "0135-candy",
+    "sync_id": "0135",
+    "leetcode_id": 135,
+    "slug": "candy",
+    "title": "Candy",
+    "difficulty": "Hard"
+  },
+  "single-number": {
+    "folder": "0136-single-number",
+    "sync_id": "0136",
+    "leetcode_id": 136,
+    "slug": "single-number",
+    "title": "Single Number",
+    "difficulty": "Easy"
+  },
+  "word-break": {
+    "folder": "0139-word-break",
+    "sync_id": "0139",
+    "leetcode_id": 139,
+    "slug": "word-break",
+    "title": "Word Break",
+    "difficulty": "Medium"
+  },
+  "linked-list-cycle": {
+    "folder": "0141-linked-list-cycle",
+    "sync_id": "0141",
+    "leetcode_id": 141,
+    "slug": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "difficulty": "Easy"
+  },
+  "linked-list-cycle-ii": {
+    "folder": "0142-linked-list-cycle-ii",
+    "sync_id": "0142",
+    "leetcode_id": 142,
+    "slug": "linked-list-cycle-ii",
+    "title": "Linked List Cycle II",
+    "difficulty": "Medium"
+  },
+  "reorder-list": {
+    "folder": "0143-reorder-list",
+    "sync_id": "0143",
+    "leetcode_id": 143,
+    "slug": "reorder-list",
+    "title": "Reorder List",
+    "difficulty": "Medium"
+  },
+  "binary-tree-preorder-traversal": {
+    "folder": "0144-binary-tree-preorder-traversal",
+    "sync_id": "0144",
+    "leetcode_id": 144,
+    "slug": "binary-tree-preorder-traversal",
+    "title": "Binary Tree Preorder Traversal",
+    "difficulty": "Easy"
+  },
+  "binary-tree-postorder-traversal": {
+    "folder": "0145-binary-tree-postorder-traversal",
+    "sync_id": "0145",
+    "leetcode_id": 145,
+    "slug": "binary-tree-postorder-traversal",
+    "title": "Binary Tree Postorder Traversal",
+    "difficulty": "Easy"
+  },
+  "lru-cache": {
+    "folder": "0146-lru-cache",
+    "sync_id": "0146",
+    "leetcode_id": 146,
+    "slug": "lru-cache",
+    "title": "LRU Cache",
+    "difficulty": "Medium"
+  },
+  "evaluate-reverse-polish-notation": {
+    "folder": "0150-evaluate-reverse-polish-notation",
+    "sync_id": "0150",
+    "leetcode_id": 150,
+    "slug": "evaluate-reverse-polish-notation",
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium"
+  },
+  "reverse-words-in-a-string": {
+    "folder": "0151-reverse-words-in-a-string",
+    "sync_id": "0151",
+    "leetcode_id": 151,
+    "slug": "reverse-words-in-a-string",
+    "title": "Reverse Words in a String",
+    "difficulty": "Medium"
+  },
+  "find-minimum-in-rotated-sorted-array": {
+    "folder": "0153-find-minimum-in-rotated-sorted-array",
+    "sync_id": "0153",
+    "leetcode_id": 153,
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium"
+  },
+  "min-stack": {
+    "folder": "0155-min-stack",
+    "sync_id": "0155",
+    "leetcode_id": 155,
+    "slug": "min-stack",
+    "title": "Min Stack",
+    "difficulty": "Medium"
+  },
+  "intersection-of-two-linked-lists": {
+    "folder": "0160-intersection-of-two-linked-lists",
+    "sync_id": "0160",
+    "leetcode_id": 160,
+    "slug": "intersection-of-two-linked-lists",
+    "title": "Intersection of Two Linked Lists",
+    "difficulty": "Easy"
+  },
+  "find-peak-element": {
+    "folder": "0162-find-peak-element",
+    "sync_id": "0162",
+    "leetcode_id": 162,
+    "slug": "find-peak-element",
+    "title": "Find Peak Element",
+    "difficulty": "Medium"
+  },
+  "two-sum-ii-input-array-is-sorted": {
+    "folder": "0167-two-sum-ii---input-array-is-sorted",
+    "sync_id": "0167",
+    "leetcode_id": 167,
+    "slug": "two-sum-ii-input-array-is-sorted",
+    "title": "Two Sum II - Input Array Is Sorted",
+    "difficulty": "Medium"
+  },
+  "majority-element": {
+    "folder": "0169-majority-element",
+    "sync_id": "0169",
+    "leetcode_id": 169,
+    "slug": "majority-element",
+    "title": "Majority Element",
+    "difficulty": "Easy"
+  },
+  "factorial-trailing-zeroes": {
+    "folder": "0172-factorial-trailing-zeroes",
+    "sync_id": "0172",
+    "leetcode_id": 172,
+    "slug": "factorial-trailing-zeroes",
+    "title": "Factorial Trailing Zeroes",
+    "difficulty": "Medium"
+  },
+  "combine-two-tables": {
+    "folder": "0175-combine-two-tables",
+    "sync_id": "0175",
+    "leetcode_id": 175,
+    "slug": "combine-two-tables",
+    "title": "Combine Two Tables",
+    "difficulty": "Easy"
+  },
+  "second-highest-salary": {
+    "folder": "0176-second-highest-salary",
+    "sync_id": "0176",
+    "leetcode_id": 176,
+    "slug": "second-highest-salary",
+    "title": "Second Highest Salary",
+    "difficulty": "Medium"
+  },
+  "rank-scores": {
+    "folder": "0178-rank-scores",
+    "sync_id": "0178",
+    "leetcode_id": 178,
+    "slug": "rank-scores",
+    "title": "Rank Scores",
+    "difficulty": "Medium"
+  },
+  "department-highest-salary": {
+    "folder": "0184-department-highest-salary",
+    "sync_id": "0184",
+    "leetcode_id": 184,
+    "slug": "department-highest-salary",
+    "title": "Department Highest Salary",
+    "difficulty": "Medium"
+  },
+  "department-top-three-salaries": {
+    "folder": "0185-department-top-three-salaries",
+    "sync_id": "0185",
+    "leetcode_id": 185,
+    "slug": "department-top-three-salaries",
+    "title": "Department Top Three Salaries",
+    "difficulty": "Hard"
+  },
+  "rotate-array": {
+    "folder": "0189-rotate-array",
+    "sync_id": "0189",
+    "leetcode_id": 189,
+    "slug": "rotate-array",
+    "title": "Rotate Array",
+    "difficulty": "Medium"
+  },
+  "reverse-bits": {
+    "folder": "0190-reverse-bits",
+    "sync_id": "0190",
+    "leetcode_id": 190,
+    "slug": "reverse-bits",
+    "title": "Reverse Bits",
+    "difficulty": "Easy"
+  },
+  "number-of-1-bits": {
+    "folder": "0191-number-of-1-bits",
+    "sync_id": "0191",
+    "leetcode_id": 191,
+    "slug": "number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "difficulty": "Easy"
+  },
+  "rising-temperature": {
+    "folder": "0197-rising-temperature",
+    "sync_id": "0197",
+    "leetcode_id": 197,
+    "slug": "rising-temperature",
+    "title": "Rising Temperature",
+    "difficulty": "Easy"
+  },
+  "house-robber": {
+    "folder": "0198-house-robber",
+    "sync_id": "0198",
+    "leetcode_id": 198,
+    "slug": "house-robber",
+    "title": "House Robber",
+    "difficulty": "Medium"
+  },
+  "binary-tree-right-side-view": {
+    "folder": "0199-binary-tree-right-side-view",
+    "sync_id": "0199",
+    "leetcode_id": 199,
+    "slug": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "difficulty": "Medium"
+  },
+  "number-of-islands": {
+    "folder": "0200-number-of-islands",
+    "sync_id": "0200",
+    "leetcode_id": 200,
+    "slug": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium"
+  },
+  "bitwise-and-of-numbers-range": {
+    "folder": "0201-bitwise-and-of-numbers-range",
+    "sync_id": "0201",
+    "leetcode_id": 201,
+    "slug": "bitwise-and-of-numbers-range",
+    "title": "Bitwise AND of Numbers Range",
+    "difficulty": "Medium"
+  },
+  "happy-number": {
+    "folder": "0202-happy-number",
+    "sync_id": "0202",
+    "leetcode_id": 202,
+    "slug": "happy-number",
+    "title": "Happy Number",
+    "difficulty": "Easy"
+  },
+  "remove-linked-list-elements": {
+    "folder": "0203-remove-linked-list-elements",
+    "sync_id": "0203",
+    "leetcode_id": 203,
+    "slug": "remove-linked-list-elements",
+    "title": "Remove Linked List Elements",
+    "difficulty": "Easy"
+  },
+  "isomorphic-strings": {
+    "folder": "0205-isomorphic-strings",
+    "sync_id": "0205",
+    "leetcode_id": 205,
+    "slug": "isomorphic-strings",
+    "title": "Isomorphic Strings",
+    "difficulty": "Easy"
+  },
+  "reverse-linked-list": {
+    "folder": "0206-reverse-linked-list",
+    "sync_id": "0206",
+    "leetcode_id": 206,
+    "slug": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy"
+  },
+  "course-schedule": {
+    "folder": "0207-course-schedule",
+    "sync_id": "0207",
+    "leetcode_id": 207,
+    "slug": "course-schedule",
+    "title": "Course Schedule",
+    "difficulty": "Medium"
+  },
+  "implement-trie-prefix-tree": {
+    "folder": "0208-implement-trie-prefix-tree",
+    "sync_id": "0208",
+    "leetcode_id": 208,
+    "slug": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium"
+  },
+  "course-schedule-ii": {
+    "folder": "0210-course-schedule-ii",
+    "sync_id": "0210",
+    "leetcode_id": 210,
+    "slug": "course-schedule-ii",
+    "title": "Course Schedule II",
+    "difficulty": "Medium"
+  },
+  "design-add-and-search-words-data-structure": {
+    "folder": "0211-design-add-and-search-words-data-structure",
+    "sync_id": "0211",
+    "leetcode_id": 211,
+    "slug": "design-add-and-search-words-data-structure",
+    "title": "Design Add and Search Words Data Structure",
+    "difficulty": "Medium"
+  },
+  "kth-largest-element-in-an-array": {
+    "folder": "0215-kth-largest-element-in-an-array",
+    "sync_id": "0215",
+    "leetcode_id": 215,
+    "slug": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium"
+  },
+  "contains-duplicate": {
+    "folder": "0217-contains-duplicate",
+    "sync_id": "0217",
+    "leetcode_id": 217,
+    "slug": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy"
+  },
+  "contains-duplicate-ii": {
+    "folder": "0219-contains-duplicate-ii",
+    "sync_id": "0219",
+    "leetcode_id": 219,
+    "slug": "contains-duplicate-ii",
+    "title": "Contains Duplicate II",
+    "difficulty": "Easy"
+  },
+  "count-complete-tree-nodes": {
+    "folder": "0222-count-complete-tree-nodes",
+    "sync_id": "0222",
+    "leetcode_id": 222,
+    "slug": "count-complete-tree-nodes",
+    "title": "Count Complete Tree Nodes",
+    "difficulty": "Easy"
+  },
+  "implement-stack-using-queues": {
+    "folder": "0225-implement-stack-using-queues",
+    "sync_id": "0225",
+    "leetcode_id": 225,
+    "slug": "implement-stack-using-queues",
+    "title": "Implement Stack using Queues",
+    "difficulty": "Easy"
+  },
+  "invert-binary-tree": {
+    "folder": "0226-invert-binary-tree",
+    "sync_id": "0226",
+    "leetcode_id": 226,
+    "slug": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "difficulty": "Easy"
+  },
+  "summary-ranges": {
+    "folder": "0228-summary-ranges",
+    "sync_id": "0228",
+    "leetcode_id": 228,
+    "slug": "summary-ranges",
+    "title": "Summary Ranges",
+    "difficulty": "Easy"
+  },
+  "kth-smallest-element-in-a-bst": {
+    "folder": "0230-kth-smallest-element-in-a-bst",
+    "sync_id": "0230",
+    "leetcode_id": 230,
+    "slug": "kth-smallest-element-in-a-bst",
+    "title": "Kth Smallest Element in a BST",
+    "difficulty": "Medium"
+  },
+  "power-of-two": {
+    "folder": "0231-power-of-two",
+    "sync_id": "0231",
+    "leetcode_id": 231,
+    "slug": "power-of-two",
+    "title": "Power of Two",
+    "difficulty": "Easy"
+  },
+  "implement-queue-using-stacks": {
+    "folder": "0232-implement-queue-using-stacks",
+    "sync_id": "0232",
+    "leetcode_id": 232,
+    "slug": "implement-queue-using-stacks",
+    "title": "Implement Queue using Stacks",
+    "difficulty": "Easy"
+  },
+  "palindrome-linked-list": {
+    "folder": "0234-palindrome-linked-list",
+    "sync_id": "0234",
+    "leetcode_id": 234,
+    "slug": "palindrome-linked-list",
+    "title": "Palindrome Linked List",
+    "difficulty": "Easy"
+  },
+  "lowest-common-ancestor-of-a-binary-search-tree": {
+    "folder": "0235-lowest-common-ancestor-of-a-binary-search-tree",
+    "sync_id": "0235",
+    "leetcode_id": 235,
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "difficulty": "Medium"
+  },
+  "lowest-common-ancestor-of-a-binary-tree": {
+    "folder": "0236-lowest-common-ancestor-of-a-binary-tree",
+    "sync_id": "0236",
+    "leetcode_id": 236,
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium"
+  },
+  "delete-node-in-a-linked-list": {
+    "folder": "0237-delete-node-in-a-linked-list",
+    "sync_id": "0237",
+    "leetcode_id": 237,
+    "slug": "delete-node-in-a-linked-list",
+    "title": "Delete Node in a Linked List",
+    "difficulty": "Medium"
+  },
+  "product-of-array-except-self": {
+    "folder": "0238-product-of-array-except-self",
+    "sync_id": "0238",
+    "leetcode_id": 238,
+    "slug": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium"
+  },
+  "valid-anagram": {
+    "folder": "0242-valid-anagram",
+    "sync_id": "0242",
+    "leetcode_id": 242,
+    "slug": "valid-anagram",
+    "title": "Valid Anagram",
+    "difficulty": "Easy"
+  },
+  "binary-tree-paths": {
+    "folder": "0257-binary-tree-paths",
+    "sync_id": "0257",
+    "leetcode_id": 257,
+    "slug": "binary-tree-paths",
+    "title": "Binary Tree Paths",
+    "difficulty": "Easy"
+  },
+  "add-digits": {
+    "folder": "0258-add-digits",
+    "sync_id": "0258",
+    "leetcode_id": 258,
+    "slug": "add-digits",
+    "title": "Add Digits",
+    "difficulty": "Easy"
+  },
+  "missing-number": {
+    "folder": "0268-missing-number",
+    "sync_id": "0268",
+    "leetcode_id": 268,
+    "slug": "missing-number",
+    "title": "Missing Number",
+    "difficulty": "Easy"
+  },
+  "move-zeroes": {
+    "folder": "0283-move-zeroes",
+    "sync_id": "0283",
+    "leetcode_id": 283,
+    "slug": "move-zeroes",
+    "title": "Move Zeroes",
+    "difficulty": "Easy"
+  },
+  "find-the-duplicate-number": {
+    "folder": "0287-find-the-duplicate-number",
+    "sync_id": "0287",
+    "leetcode_id": 287,
+    "slug": "find-the-duplicate-number",
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium"
+  },
+  "word-pattern": {
+    "folder": "0290-word-pattern",
+    "sync_id": "0290",
+    "leetcode_id": 290,
+    "slug": "word-pattern",
+    "title": "Word Pattern",
+    "difficulty": "Easy"
+  },
+  "remove-duplicate-letters": {
+    "folder": "0316-remove-duplicate-letters",
+    "sync_id": "0316",
+    "leetcode_id": 316,
+    "slug": "remove-duplicate-letters",
+    "title": "Remove Duplicate Letters",
+    "difficulty": "Medium"
+  },
+  "power-of-three": {
+    "folder": "0326-power-of-three",
+    "sync_id": "0326",
+    "leetcode_id": 326,
+    "slug": "power-of-three",
+    "title": "Power of Three",
+    "difficulty": "Easy"
+  },
+  "odd-even-linked-list": {
+    "folder": "0328-odd-even-linked-list",
+    "sync_id": "0328",
+    "leetcode_id": 328,
+    "slug": "odd-even-linked-list",
+    "title": "Odd Even Linked List",
+    "difficulty": "Medium"
+  },
+  "increasing-triplet-subsequence": {
+    "folder": "0334-increasing-triplet-subsequence",
+    "sync_id": "0334",
+    "leetcode_id": 334,
+    "slug": "increasing-triplet-subsequence",
+    "title": "Increasing Triplet Subsequence",
+    "difficulty": "Medium"
+  },
+  "counting-bits": {
+    "folder": "0338-counting-bits",
+    "sync_id": "0338",
+    "leetcode_id": 338,
+    "slug": "counting-bits",
+    "title": "Counting Bits",
+    "difficulty": "Easy"
+  },
+  "power-of-four": {
+    "folder": "0342-power-of-four",
+    "sync_id": "0342",
+    "leetcode_id": 342,
+    "slug": "power-of-four",
+    "title": "Power of Four",
+    "difficulty": "Easy"
+  },
+  "integer-break": {
+    "folder": "0343-integer-break",
+    "sync_id": "0343",
+    "leetcode_id": 343,
+    "slug": "integer-break",
+    "title": "Integer Break",
+    "difficulty": "Medium"
+  },
+  "reverse-string": {
+    "folder": "0344-reverse-string",
+    "sync_id": "0344",
+    "leetcode_id": 344,
+    "slug": "reverse-string",
+    "title": "Reverse String",
+    "difficulty": "Easy"
+  },
+  "reverse-vowels-of-a-string": {
+    "folder": "0345-reverse-vowels-of-a-string",
+    "sync_id": "0345",
+    "leetcode_id": 345,
+    "slug": "reverse-vowels-of-a-string",
+    "title": "Reverse Vowels of a String",
+    "difficulty": "Easy"
+  },
+  "top-k-frequent-elements": {
+    "folder": "0347-top-k-frequent-elements",
+    "sync_id": "0347",
+    "leetcode_id": 347,
+    "slug": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium"
+  },
+  "intersection-of-two-arrays": {
+    "folder": "0349-intersection-of-two-arrays",
+    "sync_id": "0349",
+    "leetcode_id": 349,
+    "slug": "intersection-of-two-arrays",
+    "title": "Intersection of Two Arrays",
+    "difficulty": "Easy"
+  },
+  "intersection-of-two-arrays-ii": {
+    "folder": "0350-intersection-of-two-arrays-ii",
+    "sync_id": "0350",
+    "leetcode_id": 350,
+    "slug": "intersection-of-two-arrays-ii",
+    "title": "Intersection of Two Arrays II",
+    "difficulty": "Easy"
+  },
+  "guess-number-higher-or-lower": {
+    "folder": "0374-guess-number-higher-or-lower",
+    "sync_id": "0374",
+    "leetcode_id": 374,
+    "slug": "guess-number-higher-or-lower",
+    "title": "Guess Number Higher or Lower",
+    "difficulty": "Easy"
+  },
+  "linked-list-random-node": {
+    "folder": "0382-linked-list-random-node",
+    "sync_id": "0382",
+    "leetcode_id": 382,
+    "slug": "linked-list-random-node",
+    "title": "Linked List Random Node",
+    "difficulty": "Medium"
+  },
+  "ransom-note": {
+    "folder": "0383-ransom-note",
+    "sync_id": "0383",
+    "leetcode_id": 383,
+    "slug": "ransom-note",
+    "title": "Ransom Note",
+    "difficulty": "Easy"
+  },
+  "first-unique-character-in-a-string": {
+    "folder": "0387-first-unique-character-in-a-string",
+    "sync_id": "0387",
+    "leetcode_id": 387,
+    "slug": "first-unique-character-in-a-string",
+    "title": "First Unique Character in a String",
+    "difficulty": "Easy"
+  },
+  "find-the-difference": {
+    "folder": "0389-find-the-difference",
+    "sync_id": "0389",
+    "leetcode_id": 389,
+    "slug": "find-the-difference",
+    "title": "Find the Difference",
+    "difficulty": "Easy"
+  },
+  "is-subsequence": {
+    "folder": "0392-is-subsequence",
+    "sync_id": "0392",
+    "leetcode_id": 392,
+    "slug": "is-subsequence",
+    "title": "Is Subsequence",
+    "difficulty": "Easy"
+  },
+  "decode-string": {
+    "folder": "0394-decode-string",
+    "sync_id": "0394",
+    "leetcode_id": 394,
+    "slug": "decode-string",
+    "title": "Decode String",
+    "difficulty": "Medium"
+  },
+  "evaluate-division": {
+    "folder": "0399-evaluate-division",
+    "sync_id": "0399",
+    "leetcode_id": 399,
+    "slug": "evaluate-division",
+    "title": "Evaluate Division",
+    "difficulty": "Medium"
+  },
+  "sum-of-left-leaves": {
+    "folder": "0404-sum-of-left-leaves",
+    "sync_id": "0404",
+    "leetcode_id": 404,
+    "slug": "sum-of-left-leaves",
+    "title": "Sum of Left Leaves",
+    "difficulty": "Easy"
+  },
+  "trapping-rain-water-ii": {
+    "folder": "0407-trapping-rain-water-ii",
+    "sync_id": "0407",
+    "leetcode_id": 407,
+    "slug": "trapping-rain-water-ii",
+    "title": "Trapping Rain Water II",
+    "difficulty": "Hard"
+  },
+  "fizz-buzz": {
+    "folder": "0412-fizz-buzz",
+    "sync_id": "0412",
+    "leetcode_id": 412,
+    "slug": "fizz-buzz",
+    "title": "Fizz Buzz",
+    "difficulty": "Easy"
+  },
+  "add-strings": {
+    "folder": "0415-add-strings",
+    "sync_id": "0415",
+    "leetcode_id": 415,
+    "slug": "add-strings",
+    "title": "Add Strings",
+    "difficulty": "Easy"
+  },
+  "battleships-in-a-board": {
+    "folder": "0419-battleships-in-a-board",
+    "sync_id": "0419",
+    "leetcode_id": 419,
+    "slug": "battleships-in-a-board",
+    "title": "Battleships in a Board",
+    "difficulty": "Medium"
+  },
+  "path-sum-iii": {
+    "folder": "0437-path-sum-iii",
+    "sync_id": "0437",
+    "leetcode_id": 437,
+    "slug": "path-sum-iii",
+    "title": "Path Sum III",
+    "difficulty": "Medium"
+  },
+  "find-all-duplicates-in-an-array": {
+    "folder": "0442-find-all-duplicates-in-an-array",
+    "sync_id": "0442",
+    "leetcode_id": 442,
+    "slug": "find-all-duplicates-in-an-array",
+    "title": "Find All Duplicates in an Array",
+    "difficulty": "Medium"
+  },
+  "string-compression": {
+    "folder": "0443-string-compression",
+    "sync_id": "0443",
+    "leetcode_id": 443,
+    "slug": "string-compression",
+    "title": "String Compression",
+    "difficulty": "Medium"
+  },
+  "find-all-numbers-disappeared-in-an-array": {
+    "folder": "0448-find-all-numbers-disappeared-in-an-array",
+    "sync_id": "0448",
+    "leetcode_id": 448,
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "title": "Find All Numbers Disappeared in an Array",
+    "difficulty": "Easy"
+  },
+  "delete-node-in-a-bst": {
+    "folder": "0450-delete-node-in-a-bst",
+    "sync_id": "0450",
+    "leetcode_id": 450,
+    "slug": "delete-node-in-a-bst",
+    "title": "Delete Node in a BST",
+    "difficulty": "Medium"
+  },
+  "assign-cookies": {
+    "folder": "0455-assign-cookies",
+    "sync_id": "0455",
+    "leetcode_id": 455,
+    "slug": "assign-cookies",
+    "title": "Assign Cookies",
+    "difficulty": "Easy"
+  },
+  "island-perimeter": {
+    "folder": "0463-island-perimeter",
+    "sync_id": "0463",
+    "leetcode_id": 463,
+    "slug": "island-perimeter",
+    "title": "Island Perimeter",
+    "difficulty": "Easy"
+  },
+  "keyboard-row": {
+    "folder": "0500-keyboard-row",
+    "sync_id": "0500",
+    "leetcode_id": 500,
+    "slug": "keyboard-row",
+    "title": "Keyboard Row",
+    "difficulty": "Easy"
+  },
+  "find-mode-in-binary-search-tree": {
+    "folder": "0501-find-mode-in-binary-search-tree",
+    "sync_id": "0501",
+    "leetcode_id": 501,
+    "slug": "find-mode-in-binary-search-tree",
+    "title": "Find Mode in Binary Search Tree",
+    "difficulty": "Easy"
+  },
+  "relative-ranks": {
+    "folder": "0506-relative-ranks",
+    "sync_id": "0506",
+    "leetcode_id": 506,
+    "slug": "relative-ranks",
+    "title": "Relative Ranks",
+    "difficulty": "Easy"
+  },
+  "fibonacci-number": {
+    "folder": "1013-fibonacci-number",
+    "sync_id": "1013",
+    "leetcode_id": 509,
+    "slug": "fibonacci-number",
+    "title": "Fibonacci Number",
+    "difficulty": "Easy"
+  },
+  "find-bottom-left-tree-value": {
+    "folder": "0513-find-bottom-left-tree-value",
+    "sync_id": "0513",
+    "leetcode_id": 513,
+    "slug": "find-bottom-left-tree-value",
+    "title": "Find Bottom Left Tree Value",
+    "difficulty": "Medium"
+  },
+  "find-largest-value-in-each-tree-row": {
+    "folder": "0515-find-largest-value-in-each-tree-row",
+    "sync_id": "0515",
+    "leetcode_id": 515,
+    "slug": "find-largest-value-in-each-tree-row",
+    "title": "Find Largest Value in Each Tree Row",
+    "difficulty": "Medium"
+  },
+  "minimum-absolute-difference-in-bst": {
+    "folder": "0530-minimum-absolute-difference-in-bst",
+    "sync_id": "0530",
+    "leetcode_id": 530,
+    "slug": "minimum-absolute-difference-in-bst",
+    "title": "Minimum Absolute Difference in BST",
+    "difficulty": "Easy"
+  },
+  "reverse-string-ii": {
+    "folder": "0541-reverse-string-ii",
+    "sync_id": "0541",
+    "leetcode_id": 541,
+    "slug": "reverse-string-ii",
+    "title": "Reverse String II",
+    "difficulty": "Easy"
+  },
+  "diameter-of-binary-tree": {
+    "folder": "0543-diameter-of-binary-tree",
+    "sync_id": "0543",
+    "leetcode_id": 543,
+    "slug": "diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "difficulty": "Easy"
+  },
+  "number-of-provinces": {
+    "folder": "0547-number-of-provinces",
+    "sync_id": "0547",
+    "leetcode_id": 547,
+    "slug": "number-of-provinces",
+    "title": "Number of Provinces",
+    "difficulty": "Medium"
+  },
+  "reverse-words-in-a-string-iii": {
+    "folder": "0557-reverse-words-in-a-string-iii",
+    "sync_id": "0557",
+    "leetcode_id": 557,
+    "slug": "reverse-words-in-a-string-iii",
+    "title": "Reverse Words in a String III",
+    "difficulty": "Easy"
+  },
+  "maximum-depth-of-n-ary-tree": {
+    "folder": "0774-maximum-depth-of-n-ary-tree",
+    "sync_id": "0774",
+    "leetcode_id": 559,
+    "slug": "maximum-depth-of-n-ary-tree",
+    "title": "Maximum Depth of N-ary Tree",
+    "difficulty": "Easy"
+  },
+  "binary-tree-tilt": {
+    "folder": "0563-binary-tree-tilt",
+    "sync_id": "0563",
+    "leetcode_id": 563,
+    "slug": "binary-tree-tilt",
+    "title": "Binary Tree Tilt",
+    "difficulty": "Easy"
+  },
+  "subtree-of-another-tree": {
+    "folder": "0572-subtree-of-another-tree",
+    "sync_id": "0572",
+    "leetcode_id": 572,
+    "slug": "subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "difficulty": "Easy"
+  },
+  "find-customer-referee": {
+    "folder": "0584-find-customer-referee",
+    "sync_id": "0584",
+    "leetcode_id": 584,
+    "slug": "find-customer-referee",
+    "title": "Find Customer Referee",
+    "difficulty": "Easy"
+  },
+  "n-ary-tree-preorder-traversal": {
+    "folder": "0775-n-ary-tree-preorder-traversal",
+    "sync_id": "0775",
+    "leetcode_id": 589,
+    "slug": "n-ary-tree-preorder-traversal",
+    "title": "N-ary Tree Preorder Traversal",
+    "difficulty": "Easy"
+  },
+  "n-ary-tree-postorder-traversal": {
+    "folder": "0776-n-ary-tree-postorder-traversal",
+    "sync_id": "0776",
+    "leetcode_id": 590,
+    "slug": "n-ary-tree-postorder-traversal",
+    "title": "N-ary Tree Postorder Traversal",
+    "difficulty": "Easy"
+  },
+  "big-countries": {
+    "folder": "0595-big-countries",
+    "sync_id": "0595",
+    "leetcode_id": 595,
+    "slug": "big-countries",
+    "title": "Big Countries",
+    "difficulty": "Easy"
+  },
+  "can-place-flowers": {
+    "folder": "0605-can-place-flowers",
+    "sync_id": "0605",
+    "leetcode_id": 605,
+    "slug": "can-place-flowers",
+    "title": "Can Place Flowers",
+    "difficulty": "Easy"
+  },
+  "construct-string-from-binary-tree": {
+    "folder": "0606-construct-string-from-binary-tree",
+    "sync_id": "0606",
+    "leetcode_id": 606,
+    "slug": "construct-string-from-binary-tree",
+    "title": "Construct String from Binary Tree",
+    "difficulty": "Medium"
+  },
+  "merge-two-binary-trees": {
+    "folder": "0617-merge-two-binary-trees",
+    "sync_id": "0617",
+    "leetcode_id": 617,
+    "slug": "merge-two-binary-trees",
+    "title": "Merge Two Binary Trees",
+    "difficulty": "Easy"
+  },
+  "sum-of-square-numbers": {
+    "folder": "0633-sum-of-square-numbers",
+    "sync_id": "0633",
+    "leetcode_id": 633,
+    "slug": "sum-of-square-numbers",
+    "title": "Sum of Square Numbers",
+    "difficulty": "Medium"
+  },
+  "average-of-levels-in-binary-tree": {
+    "folder": "0637-average-of-levels-in-binary-tree",
+    "sync_id": "0637",
+    "leetcode_id": 637,
+    "slug": "average-of-levels-in-binary-tree",
+    "title": "Average of Levels in Binary Tree",
+    "difficulty": "Easy"
+  },
+  "maximum-average-subarray-i": {
+    "folder": "0643-maximum-average-subarray-i",
+    "sync_id": "0643",
+    "leetcode_id": 643,
+    "slug": "maximum-average-subarray-i",
+    "title": "Maximum Average Subarray I",
+    "difficulty": "Easy"
+  },
+  "dota2-senate": {
+    "folder": "0649-dota2-senate",
+    "sync_id": "0649",
+    "leetcode_id": 649,
+    "slug": "dota2-senate",
+    "title": "Dota2 Senate",
+    "difficulty": "Medium"
+  },
+  "two-sum-iv-input-is-a-bst": {
+    "folder": "0653-two-sum-iv---input-is-a-bst",
+    "sync_id": "0653",
+    "leetcode_id": 653,
+    "slug": "two-sum-iv-input-is-a-bst",
+    "title": "Two Sum IV - Input is a BST",
+    "difficulty": "Easy"
+  },
+  "find-k-closest-elements": {
+    "folder": "0658-find-k-closest-elements",
+    "sync_id": "0658",
+    "leetcode_id": 658,
+    "slug": "find-k-closest-elements",
+    "title": "Find K Closest Elements",
+    "difficulty": "Medium"
+  },
+  "maximum-width-of-binary-tree": {
+    "folder": "0662-maximum-width-of-binary-tree",
+    "sync_id": "0662",
+    "leetcode_id": 662,
+    "slug": "maximum-width-of-binary-tree",
+    "title": "Maximum Width of Binary Tree",
+    "difficulty": "Medium"
+  },
+  "second-minimum-node-in-a-binary-tree": {
+    "folder": "0671-second-minimum-node-in-a-binary-tree",
+    "sync_id": "0671",
+    "leetcode_id": 671,
+    "slug": "second-minimum-node-in-a-binary-tree",
+    "title": "Second Minimum Node In a Binary Tree",
+    "difficulty": "Easy"
+  },
+  "valid-palindrome-ii": {
+    "folder": "0680-valid-palindrome-ii",
+    "sync_id": "0680",
+    "leetcode_id": 680,
+    "slug": "valid-palindrome-ii",
+    "title": "Valid Palindrome II",
+    "difficulty": "Easy"
+  },
+  "redundant-connection": {
+    "folder": "0684-redundant-connection",
+    "sync_id": "0684",
+    "leetcode_id": 684,
+    "slug": "redundant-connection",
+    "title": "Redundant Connection",
+    "difficulty": "Medium"
+  },
+  "count-binary-substrings": {
+    "folder": "0696-count-binary-substrings",
+    "sync_id": "0696",
+    "leetcode_id": 696,
+    "slug": "count-binary-substrings",
+    "title": "Count Binary Substrings",
+    "difficulty": "Easy"
+  },
+  "search-in-a-binary-search-tree": {
+    "folder": "0783-search-in-a-binary-search-tree",
+    "sync_id": "0783",
+    "leetcode_id": 700,
+    "slug": "search-in-a-binary-search-tree",
+    "title": "Search in a Binary Search Tree",
+    "difficulty": "Easy"
+  },
+  "binary-search": {
+    "folder": "0792-binary-search",
+    "sync_id": "0792",
+    "leetcode_id": 704,
+    "slug": "binary-search",
+    "title": "Binary Search",
+    "difficulty": "Easy"
+  },
+  "to-lower-case": {
+    "folder": "0742-to-lower-case",
+    "sync_id": "0742",
+    "leetcode_id": 709,
+    "slug": "to-lower-case",
+    "title": "To Lower Case",
+    "difficulty": "Easy"
+  },
+  "find-pivot-index": {
+    "folder": "0724-find-pivot-index",
+    "sync_id": "0724",
+    "leetcode_id": 724,
+    "slug": "find-pivot-index",
+    "title": "Find Pivot Index",
+    "difficulty": "Easy"
+  },
+  "flood-fill": {
+    "folder": "0733-flood-fill",
+    "sync_id": "0733",
+    "leetcode_id": 733,
+    "slug": "flood-fill",
+    "title": "Flood Fill",
+    "difficulty": "Easy"
+  },
+  "asteroid-collision": {
+    "folder": "0735-asteroid-collision",
+    "sync_id": "0735",
+    "leetcode_id": 735,
+    "slug": "asteroid-collision",
+    "title": "Asteroid Collision",
+    "difficulty": "Medium"
+  },
+  "daily-temperatures": {
+    "folder": "0739-daily-temperatures",
+    "sync_id": "0739",
+    "leetcode_id": 739,
+    "slug": "daily-temperatures",
+    "title": "Daily Temperatures",
+    "difficulty": "Medium"
+  },
+  "find-smallest-letter-greater-than-target": {
+    "folder": "0745-find-smallest-letter-greater-than-target",
+    "sync_id": "0745",
+    "leetcode_id": 744,
+    "slug": "find-smallest-letter-greater-than-target",
+    "title": "Find Smallest Letter Greater Than Target",
+    "difficulty": "Easy"
+  },
+  "min-cost-climbing-stairs": {
+    "folder": "0747-min-cost-climbing-stairs",
+    "sync_id": "0747",
+    "leetcode_id": 746,
+    "slug": "min-cost-climbing-stairs",
+    "title": "Min Cost Climbing Stairs",
+    "difficulty": "Easy"
+  },
+  "open-the-lock": {
+    "folder": "0753-open-the-lock",
+    "sync_id": "0753",
+    "leetcode_id": 752,
+    "slug": "open-the-lock",
+    "title": "Open the Lock",
+    "difficulty": "Medium"
+  },
+  "special-binary-string": {
+    "folder": "0763-special-binary-string",
+    "sync_id": "0763",
+    "leetcode_id": 761,
+    "slug": "special-binary-string",
+    "title": "Special Binary String",
+    "difficulty": "Hard"
+  },
+  "jewels-and-stones": {
+    "folder": "0782-jewels-and-stones",
+    "sync_id": "0782",
+    "leetcode_id": 771,
+    "slug": "jewels-and-stones",
+    "title": "Jewels and Stones",
+    "difficulty": "Easy"
+  },
+  "minimum-distance-between-bst-nodes": {
+    "folder": "0799-minimum-distance-between-bst-nodes",
+    "sync_id": "0799",
+    "leetcode_id": 783,
+    "slug": "minimum-distance-between-bst-nodes",
+    "title": "Minimum Distance Between BST Nodes",
+    "difficulty": "Easy"
+  },
+  "find-eventual-safe-states": {
+    "folder": "0820-find-eventual-safe-states",
+    "sync_id": "0820",
+    "leetcode_id": 802,
+    "slug": "find-eventual-safe-states",
+    "title": "Find Eventual Safe States",
+    "difficulty": "Medium"
+  },
+  "unique-morse-code-words": {
+    "folder": "0822-unique-morse-code-words",
+    "sync_id": "0822",
+    "leetcode_id": 804,
+    "slug": "unique-morse-code-words",
+    "title": "Unique Morse Code Words",
+    "difficulty": "Easy"
+  },
+  "most-common-word": {
+    "folder": "0837-most-common-word",
+    "sync_id": "0837",
+    "leetcode_id": 819,
+    "slug": "most-common-word",
+    "title": "Most Common Word",
+    "difficulty": "Easy"
+  },
+  "shortest-distance-to-a-character": {
+    "folder": "0841-shortest-distance-to-a-character",
+    "sync_id": "0841",
+    "leetcode_id": 821,
+    "slug": "shortest-distance-to-a-character",
+    "title": "Shortest Distance to a Character",
+    "difficulty": "Easy"
+  },
+  "goat-latin": {
+    "folder": "0851-goat-latin",
+    "sync_id": "0851",
+    "leetcode_id": 824,
+    "slug": "goat-latin",
+    "title": "Goat Latin",
+    "difficulty": "Easy"
+  },
+  "flipping-an-image": {
+    "folder": "0861-flipping-an-image",
+    "sync_id": "0861",
+    "leetcode_id": 832,
+    "slug": "flipping-an-image",
+    "title": "Flipping an Image",
+    "difficulty": "Easy"
+  },
+  "keys-and-rooms": {
+    "folder": "0871-keys-and-rooms",
+    "sync_id": "0871",
+    "leetcode_id": 841,
+    "slug": "keys-and-rooms",
+    "title": "Keys and Rooms",
+    "difficulty": "Medium"
+  },
+  "car-fleet": {
+    "folder": "0883-car-fleet",
+    "sync_id": "0883",
+    "leetcode_id": 853,
+    "slug": "car-fleet",
+    "title": "Car Fleet",
+    "difficulty": "Medium"
+  },
+  "leaf-similar-trees": {
+    "folder": "0904-leaf-similar-trees",
+    "sync_id": "0904",
+    "leetcode_id": 872,
+    "slug": "leaf-similar-trees",
+    "title": "Leaf-Similar Trees",
+    "difficulty": "Easy"
+  },
+  "koko-eating-bananas": {
+    "folder": "0907-koko-eating-bananas",
+    "sync_id": "0907",
+    "leetcode_id": 875,
+    "slug": "koko-eating-bananas",
+    "title": "Koko Eating Bananas",
+    "difficulty": "Medium"
+  },
+  "middle-of-the-linked-list": {
+    "folder": "0908-middle-of-the-linked-list",
+    "sync_id": "0908",
+    "leetcode_id": 876,
+    "slug": "middle-of-the-linked-list",
+    "title": "Middle of the Linked List",
+    "difficulty": "Easy"
+  },
+  "decoded-string-at-index": {
+    "folder": "0916-decoded-string-at-index",
+    "sync_id": "0916",
+    "leetcode_id": 880,
+    "slug": "decoded-string-at-index",
+    "title": "Decoded String at Index",
+    "difficulty": "Medium"
+  },
+  "boats-to-save-people": {
+    "folder": "0917-boats-to-save-people",
+    "sync_id": "0917",
+    "leetcode_id": 881,
+    "slug": "boats-to-save-people",
+    "title": "Boats to Save People",
+    "difficulty": "Medium"
+  },
+  "increasing-order-search-tree": {
+    "folder": "0933-increasing-order-search-tree",
+    "sync_id": "0933",
+    "leetcode_id": 897,
+    "slug": "increasing-order-search-tree",
+    "title": "Increasing Order Search Tree",
+    "difficulty": "Easy"
+  },
+  "online-stock-span": {
+    "folder": "0937-online-stock-span",
+    "sync_id": "0937",
+    "leetcode_id": 901,
+    "slug": "online-stock-span",
+    "title": "Online Stock Span",
+    "difficulty": "Medium"
+  },
+  "sort-array-by-parity": {
+    "folder": "0941-sort-array-by-parity",
+    "sync_id": "0941",
+    "leetcode_id": 905,
+    "slug": "sort-array-by-parity",
+    "title": "Sort Array By Parity",
+    "difficulty": "Easy"
+  },
+  "reverse-only-letters": {
+    "folder": "0953-reverse-only-letters",
+    "sync_id": "0953",
+    "leetcode_id": 917,
+    "slug": "reverse-only-letters",
+    "title": "Reverse Only Letters",
+    "difficulty": "Easy"
+  },
+  "sort-array-by-parity-ii": {
+    "folder": "0958-sort-array-by-parity-ii",
+    "sync_id": "0958",
+    "leetcode_id": 922,
+    "slug": "sort-array-by-parity-ii",
+    "title": "Sort Array By Parity II",
+    "difficulty": "Easy"
+  },
+  "3sum-with-multiplicity": {
+    "folder": "0959-3sum-with-multiplicity",
+    "sync_id": "0959",
+    "leetcode_id": 923,
+    "slug": "3sum-with-multiplicity",
+    "title": "3Sum With Multiplicity",
+    "difficulty": "Medium"
+  },
+  "number-of-recent-calls": {
+    "folder": "0969-number-of-recent-calls",
+    "sync_id": "0969",
+    "leetcode_id": 933,
+    "slug": "number-of-recent-calls",
+    "title": "Number of Recent Calls",
+    "difficulty": "Easy"
+  },
+  "range-sum-of-bst": {
+    "folder": "0975-range-sum-of-bst",
+    "sync_id": "0975",
+    "leetcode_id": 938,
+    "slug": "range-sum-of-bst",
+    "title": "Range Sum of BST",
+    "difficulty": "Easy"
+  },
+  "di-string-match": {
+    "folder": "0979-di-string-match",
+    "sync_id": "0979",
+    "leetcode_id": 942,
+    "slug": "di-string-match",
+    "title": "DI String Match",
+    "difficulty": "Easy"
+  },
+  "bag-of-tokens": {
+    "folder": "0985-bag-of-tokens",
+    "sync_id": "0985",
+    "leetcode_id": 948,
+    "slug": "bag-of-tokens",
+    "title": "Bag of Tokens",
+    "difficulty": "Medium"
+  },
+  "tallest-billboard": {
+    "folder": "0993-tallest-billboard",
+    "sync_id": "0993",
+    "leetcode_id": 956,
+    "slug": "tallest-billboard",
+    "title": "Tallest Billboard",
+    "difficulty": "Hard"
+  },
+  "univalued-binary-tree": {
+    "folder": "1005-univalued-binary-tree",
+    "sync_id": "1005",
+    "leetcode_id": 965,
+    "slug": "univalued-binary-tree",
+    "title": "Univalued Binary Tree",
+    "difficulty": "Easy"
+  },
+  "pancake-sorting": {
+    "folder": "1009-pancake-sorting",
+    "sync_id": "1009",
+    "leetcode_id": 969,
+    "slug": "pancake-sorting",
+    "title": "Pancake Sorting",
+    "difficulty": "Medium"
+  },
+  "squares-of-a-sorted-array": {
+    "folder": "1019-squares-of-a-sorted-array",
+    "sync_id": "1019",
+    "leetcode_id": 977,
+    "slug": "squares-of-a-sorted-array",
+    "title": "Squares of a Sorted Array",
+    "difficulty": "Easy"
+  },
+  "time-based-key-value-store": {
+    "folder": "1023-time-based-key-value-store",
+    "sync_id": "1023",
+    "leetcode_id": 981,
+    "slug": "time-based-key-value-store",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium"
+  },
+  "cousins-in-binary-tree": {
+    "folder": "1035-cousins-in-binary-tree",
+    "sync_id": "1035",
+    "leetcode_id": 993,
+    "slug": "cousins-in-binary-tree",
+    "title": "Cousins in Binary Tree",
+    "difficulty": "Easy"
+  },
+  "max-consecutive-ones-iii": {
+    "folder": "1046-max-consecutive-ones-iii",
+    "sync_id": "1046",
+    "leetcode_id": 1004,
+    "slug": "max-consecutive-ones-iii",
+    "title": "Max Consecutive Ones III",
+    "difficulty": "Medium"
+  },
+  "sum-of-root-to-leaf-binary-numbers": {
+    "folder": "1079-sum-of-root-to-leaf-binary-numbers",
+    "sync_id": "1079",
+    "leetcode_id": 1022,
+    "slug": "sum-of-root-to-leaf-binary-numbers",
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "difficulty": "Easy"
+  },
+  "divisor-game": {
+    "folder": "1086-divisor-game",
+    "sync_id": "1086",
+    "leetcode_id": 1025,
+    "slug": "divisor-game",
+    "title": "Divisor Game",
+    "difficulty": "Easy"
+  },
+  "height-checker": {
+    "folder": "1137-height-checker",
+    "sync_id": "1137",
+    "leetcode_id": 1051,
+    "slug": "height-checker",
+    "title": "Height Checker",
+    "difficulty": "Easy"
+  },
+  "greatest-common-divisor-of-strings": {
+    "folder": "1146-greatest-common-divisor-of-strings",
+    "sync_id": "1146",
+    "leetcode_id": 1071,
+    "slug": "greatest-common-divisor-of-strings",
+    "title": "Greatest Common Divisor of Strings",
+    "difficulty": "Easy"
+  },
+  "smallest-subsequence-of-distinct-characters": {
+    "folder": "1159-smallest-subsequence-of-distinct-characters",
+    "sync_id": "1159",
+    "leetcode_id": 1081,
+    "slug": "smallest-subsequence-of-distinct-characters",
+    "title": "Smallest Subsequence of Distinct Characters",
+    "difficulty": "Medium"
+  },
+  "duplicate-zeros": {
+    "folder": "1168-duplicate-zeros",
+    "sync_id": "1168",
+    "leetcode_id": 1089,
+    "slug": "duplicate-zeros",
+    "title": "Duplicate Zeros",
+    "difficulty": "Easy"
+  },
+  "defanging-an-ip-address": {
+    "folder": "1205-defanging-an-ip-address",
+    "sync_id": "1205",
+    "leetcode_id": 1108,
+    "slug": "defanging-an-ip-address",
+    "title": "Defanging an IP Address",
+    "difficulty": "Easy"
+  },
+  "n-th-tribonacci-number": {
+    "folder": "1236-n-th-tribonacci-number",
+    "sync_id": "1236",
+    "leetcode_id": 1137,
+    "slug": "n-th-tribonacci-number",
+    "title": "N-th Tribonacci Number",
+    "difficulty": "Easy"
+  },
+  "longest-common-subsequence": {
+    "folder": "1250-longest-common-subsequence",
+    "sync_id": "1250",
+    "leetcode_id": 1143,
+    "slug": "longest-common-subsequence",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium"
+  },
+  "article-views-i": {
+    "folder": "1258-article-views-i",
+    "sync_id": "1258",
+    "leetcode_id": 1148,
+    "slug": "article-views-i",
+    "title": "Article Views I",
+    "difficulty": "Easy"
+  },
+  "maximum-level-sum-of-a-binary-tree": {
+    "folder": "1116-maximum-level-sum-of-a-binary-tree",
+    "sync_id": "1116",
+    "leetcode_id": 1161,
+    "slug": "maximum-level-sum-of-a-binary-tree",
+    "title": "Maximum Level Sum of a Binary Tree",
+    "difficulty": "Medium"
+  },
+  "minimum-absolute-difference": {
+    "folder": "1306-minimum-absolute-difference",
+    "sync_id": "1306",
+    "leetcode_id": 1200,
+    "slug": "minimum-absolute-difference",
+    "title": "Minimum Absolute Difference",
+    "difficulty": "Easy"
+  },
+  "unique-number-of-occurrences": {
+    "folder": "1319-unique-number-of-occurrences",
+    "sync_id": "1319",
+    "leetcode_id": 1207,
+    "slug": "unique-number-of-occurrences",
+    "title": "Unique Number of Occurrences",
+    "difficulty": "Easy"
+  },
+  "count-servers-that-communicate": {
+    "folder": "1396-count-servers-that-communicate",
+    "sync_id": "1396",
+    "leetcode_id": 1267,
+    "slug": "count-servers-that-communicate",
+    "title": "Count Servers that Communicate",
+    "difficulty": "Medium"
+  },
+  "search-suggestions-system": {
+    "folder": "1397-search-suggestions-system",
+    "sync_id": "1397",
+    "leetcode_id": 1268,
+    "slug": "search-suggestions-system",
+    "title": "Search Suggestions System",
+    "difficulty": "Medium"
+  },
+  "minimum-flips-to-make-a-or-b-equal-to-c": {
+    "folder": "1441-minimum-flips-to-make-a-or-b-equal-to-c",
+    "sync_id": "1441",
+    "leetcode_id": 1318,
+    "slug": "minimum-flips-to-make-a-or-b-equal-to-c",
+    "title": "Minimum Flips to Make a OR b Equal to c",
+    "difficulty": "Medium"
+  },
+  "sort-integers-by-the-number-of-1-bits": {
+    "folder": "1458-sort-integers-by-the-number-of-1-bits",
+    "sync_id": "1458",
+    "leetcode_id": 1356,
+    "slug": "sort-integers-by-the-number-of-1-bits",
+    "title": "Sort Integers by The Number of 1 Bits",
+    "difficulty": "Easy"
+  },
+  "longest-zigzag-path-in-a-binary-tree": {
+    "folder": "1474-longest-zigzag-path-in-a-binary-tree",
+    "sync_id": "1474",
+    "leetcode_id": 1372,
+    "slug": "longest-zigzag-path-in-a-binary-tree",
+    "title": "Longest ZigZag Path in a Binary Tree",
+    "difficulty": "Medium"
+  },
+  "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": {
+    "folder": "1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+    "sync_id": "1498",
+    "leetcode_id": 1379,
+    "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+    "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+    "difficulty": "Easy"
+  },
+  "kids-with-the-greatest-number-of-candies": {
+    "folder": "1528-kids-with-the-greatest-number-of-candies",
+    "sync_id": "1528",
+    "leetcode_id": 1431,
+    "slug": "kids-with-the-greatest-number-of-candies",
+    "title": "Kids With the Greatest Number of Candies",
+    "difficulty": "Easy"
+  },
+  "count-good-nodes-in-binary-tree": {
+    "folder": "1544-count-good-nodes-in-binary-tree",
+    "sync_id": "1544",
+    "leetcode_id": 1448,
+    "slug": "count-good-nodes-in-binary-tree",
+    "title": "Count Good Nodes in Binary Tree",
+    "difficulty": "Medium"
+  },
+  "maximum-number-of-vowels-in-a-substring-of-given-length": {
+    "folder": "1567-maximum-number-of-vowels-in-a-substring-of-given-length",
+    "sync_id": "1567",
+    "leetcode_id": 1456,
+    "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "difficulty": "Medium"
+  },
+  "course-schedule-iv": {
+    "folder": "1558-course-schedule-iv",
+    "sync_id": "1558",
+    "leetcode_id": 1462,
+    "slug": "course-schedule-iv",
+    "title": "Course Schedule IV",
+    "difficulty": "Medium"
+  },
+  "reorder-routes-to-make-all-paths-lead-to-the-city-zero": {
+    "folder": "1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "sync_id": "1576",
+    "leetcode_id": 1466,
+    "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "difficulty": "Medium"
+  },
+  "longest-subarray-of-1s-after-deleting-one-element": {
+    "folder": "1586-longest-subarray-of-1s-after-deleting-one-element",
+    "sync_id": "1586",
+    "leetcode_id": 1493,
+    "slug": "longest-subarray-of-1s-after-deleting-one-element",
+    "title": "Longest Subarray of 1's After Deleting One Element",
+    "difficulty": "Medium"
+  },
+  "number-of-subsequences-that-satisfy-the-given-sum-condition": {
+    "folder": "1621-number-of-subsequences-that-satisfy-the-given-sum-condition",
+    "sync_id": "1621",
+    "leetcode_id": 1498,
+    "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "difficulty": "Medium"
+  },
+  "find-the-winner-of-an-array-game": {
+    "folder": "1657-find-the-winner-of-an-array-game",
+    "sync_id": "1657",
+    "leetcode_id": 1535,
+    "slug": "find-the-winner-of-an-array-game",
+    "title": "Find the Winner of an Array Game",
+    "difficulty": "Medium"
+  },
+  "shortest-subarray-to-be-removed-to-make-array-sorted": {
+    "folder": "1679-shortest-subarray-to-be-removed-to-make-array-sorted",
+    "sync_id": "1679",
+    "leetcode_id": 1574,
+    "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "title": "Shortest Subarray to be Removed to Make Array Sorted",
+    "difficulty": "Medium"
+  },
+  "customer-who-visited-but-did-not-make-any-transactions": {
+    "folder": "1724-customer-who-visited-but-did-not-make-any-transactions",
+    "sync_id": "1724",
+    "leetcode_id": 1581,
+    "slug": "customer-who-visited-but-did-not-make-any-transactions",
+    "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "difficulty": "Easy"
+  },
+  "determine-if-two-strings-are-close": {
+    "folder": "1777-determine-if-two-strings-are-close",
+    "sync_id": "1777",
+    "leetcode_id": 1657,
+    "slug": "determine-if-two-strings-are-close",
+    "title": "Determine if Two Strings Are Close",
+    "difficulty": "Medium"
+  },
+  "check-if-two-string-arrays-are-equivalent": {
+    "folder": "1781-check-if-two-string-arrays-are-equivalent",
+    "sync_id": "1781",
+    "leetcode_id": 1662,
+    "slug": "check-if-two-string-arrays-are-equivalent",
+    "title": "Check If Two String Arrays are Equivalent",
+    "difficulty": "Easy"
+  },
+  "goal-parser-interpretation": {
+    "folder": "1797-goal-parser-interpretation",
+    "sync_id": "1797",
+    "leetcode_id": 1678,
+    "slug": "goal-parser-interpretation",
+    "title": "Goal Parser Interpretation",
+    "difficulty": "Easy"
+  },
+  "max-number-of-k-sum-pairs": {
+    "folder": "1798-max-number-of-k-sum-pairs",
+    "sync_id": "1798",
+    "leetcode_id": 1679,
+    "slug": "max-number-of-k-sum-pairs",
+    "title": "Max Number of K-Sum Pairs",
+    "difficulty": "Medium"
+  },
+  "invalid-tweets": {
+    "folder": "1827-invalid-tweets",
+    "sync_id": "1827",
+    "leetcode_id": 1683,
+    "slug": "invalid-tweets",
+    "title": "Invalid Tweets",
+    "difficulty": "Easy"
+  },
+  "swapping-nodes-in-a-linked-list": {
+    "folder": "0528-swapping-nodes-in-a-linked-list",
+    "sync_id": "0528",
+    "leetcode_id": 1721,
+    "slug": "swapping-nodes-in-a-linked-list",
+    "title": "Swapping Nodes in a Linked List",
+    "difficulty": "Medium"
+  },
+  "find-the-highest-altitude": {
+    "folder": "1833-find-the-highest-altitude",
+    "sync_id": "1833",
+    "leetcode_id": 1732,
+    "slug": "find-the-highest-altitude",
+    "title": "Find the Highest Altitude",
+    "difficulty": "Easy"
+  },
+  "minimum-length-of-string-after-deleting-similar-ends": {
+    "folder": "1850-minimum-length-of-string-after-deleting-similar-ends",
+    "sync_id": "1850",
+    "leetcode_id": 1750,
+    "slug": "minimum-length-of-string-after-deleting-similar-ends",
+    "title": "Minimum Length of String After Deleting Similar Ends",
+    "difficulty": "Medium"
+  },
+  "recyclable-and-low-fat-products": {
+    "folder": "1908-recyclable-and-low-fat-products",
+    "sync_id": "1908",
+    "leetcode_id": 1757,
+    "slug": "recyclable-and-low-fat-products",
+    "title": "Recyclable and Low Fat Products",
+    "difficulty": "Easy"
+  },
+  "map-of-highest-peak": {
+    "folder": "1876-map-of-highest-peak",
+    "sync_id": "1876",
+    "leetcode_id": 1765,
+    "slug": "map-of-highest-peak",
+    "title": "Map of Highest Peak",
+    "difficulty": "Medium"
+  },
+  "merge-strings-alternately": {
+    "folder": "1894-merge-strings-alternately",
+    "sync_id": "1894",
+    "leetcode_id": 1768,
+    "slug": "merge-strings-alternately",
+    "title": "Merge Strings Alternately",
+    "difficulty": "Easy"
+  },
+  "sentence-similarity-iii": {
+    "folder": "1923-sentence-similarity-iii",
+    "sync_id": "1923",
+    "leetcode_id": 1813,
+    "slug": "sentence-similarity-iii",
+    "title": "Sentence Similarity III",
+    "difficulty": "Medium"
+  },
+  "replace-all-digits-with-characters": {
+    "folder": "1954-replace-all-digits-with-characters",
+    "sync_id": "1954",
+    "leetcode_id": 1844,
+    "slug": "replace-all-digits-with-characters",
+    "title": "Replace All Digits with Characters",
+    "difficulty": "Easy"
+  },
+  "minimum-distance-to-the-target-element": {
+    "folder": "1975-minimum-distance-to-the-target-element",
+    "sync_id": "1975",
+    "leetcode_id": 1848,
+    "slug": "minimum-distance-to-the-target-element",
+    "title": "Minimum Distance to the Target Element",
+    "difficulty": "Easy"
+  },
+  "maximum-population-year": {
+    "folder": "1983-maximum-population-year",
+    "sync_id": "1983",
+    "leetcode_id": 1854,
+    "slug": "maximum-population-year",
+    "title": "Maximum Population Year",
+    "difficulty": "Easy"
+  },
+  "sorting-the-sentence": {
+    "folder": "1970-sorting-the-sentence",
+    "sync_id": "1970",
+    "leetcode_id": 1859,
+    "slug": "sorting-the-sentence",
+    "title": "Sorting the Sentence",
+    "difficulty": "Easy"
+  },
+  "minimize-maximum-pair-sum-in-array": {
+    "folder": "1988-minimize-maximum-pair-sum-in-array",
+    "sync_id": "1988",
+    "leetcode_id": 1877,
+    "slug": "minimize-maximum-pair-sum-in-array",
+    "title": "Minimize Maximum Pair Sum in Array",
+    "difficulty": "Medium"
+  },
+  "largest-odd-number-in-string": {
+    "folder": "2032-largest-odd-number-in-string",
+    "sync_id": "2032",
+    "leetcode_id": 1903,
+    "slug": "largest-odd-number-in-string",
+    "title": "Largest Odd Number in String",
+    "difficulty": "Easy"
+  },
+  "eliminate-maximum-number-of-monsters": {
+    "folder": "2049-eliminate-maximum-number-of-monsters",
+    "sync_id": "2049",
+    "leetcode_id": 1921,
+    "slug": "eliminate-maximum-number-of-monsters",
+    "title": "Eliminate Maximum Number of Monsters",
+    "difficulty": "Medium"
+  },
+  "concatenation-of-array": {
+    "folder": "2058-concatenation-of-array",
+    "sync_id": "2058",
+    "leetcode_id": 1929,
+    "slug": "concatenation-of-array",
+    "title": "Concatenation of Array",
+    "difficulty": "Easy"
+  },
+  "find-if-path-exists-in-graph": {
+    "folder": "2121-find-if-path-exists-in-graph",
+    "sync_id": "2121",
+    "leetcode_id": 1971,
+    "slug": "find-if-path-exists-in-graph",
+    "title": "Find if Path Exists in Graph",
+    "difficulty": "Easy"
+  },
+  "find-all-groups-of-farmland": {
+    "folder": "2103-find-all-groups-of-farmland",
+    "sync_id": "2103",
+    "leetcode_id": 1992,
+    "slug": "find-all-groups-of-farmland",
+    "title": "Find All Groups of Farmland",
+    "difficulty": "Medium"
+  },
+  "operations-on-tree": {
+    "folder": "2104-operations-on-tree",
+    "sync_id": "2104",
+    "leetcode_id": 1993,
+    "slug": "operations-on-tree",
+    "title": "Operations on Tree",
+    "difficulty": "Medium"
+  },
+  "reverse-prefix-of-word": {
+    "folder": "2128-reverse-prefix-of-word",
+    "sync_id": "2128",
+    "leetcode_id": 2000,
+    "slug": "reverse-prefix-of-word",
+    "title": "Reverse Prefix of Word",
+    "difficulty": "Easy"
+  },
+  "final-value-of-variable-after-performing-operations": {
+    "folder": "2137-final-value-of-variable-after-performing-operations",
+    "sync_id": "2137",
+    "leetcode_id": 2011,
+    "slug": "final-value-of-variable-after-performing-operations",
+    "title": "Final Value of Variable After Performing Operations",
+    "difficulty": "Easy"
+  },
+  "grid-game": {
+    "folder": "2145-grid-game",
+    "sync_id": "2145",
+    "leetcode_id": 2017,
+    "slug": "grid-game",
+    "title": "Grid Game",
+    "difficulty": "Medium"
+  },
+  "count-nodes-with-the-highest-score": {
+    "folder": "2175-count-nodes-with-the-highest-score",
+    "sync_id": "2175",
+    "leetcode_id": 2049,
+    "slug": "count-nodes-with-the-highest-score",
+    "title": "Count Nodes With the Highest Score",
+    "difficulty": "Medium"
+  },
+  "delete-the-middle-node-of-a-linked-list": {
+    "folder": "2216-delete-the-middle-node-of-a-linked-list",
+    "sync_id": "2216",
+    "leetcode_id": 2095,
+    "slug": "delete-the-middle-node-of-a-linked-list",
+    "title": "Delete the Middle Node of a Linked List",
+    "difficulty": "Medium"
+  },
+  "detonate-the-maximum-bombs": {
+    "folder": "2206-detonate-the-maximum-bombs",
+    "sync_id": "2206",
+    "leetcode_id": 2101,
+    "slug": "detonate-the-maximum-bombs",
+    "title": "Detonate the Maximum Bombs",
+    "difficulty": "Medium"
+  },
+  "maximum-employees-to-be-invited-to-a-meeting": {
+    "folder": "2246-maximum-employees-to-be-invited-to-a-meeting",
+    "sync_id": "2246",
+    "leetcode_id": 2127,
+    "slug": "maximum-employees-to-be-invited-to-a-meeting",
+    "title": "Maximum Employees to Be Invited to a Meeting",
+    "difficulty": "Hard"
+  },
+  "maximum-twin-sum-of-a-linked-list": {
+    "folder": "2236-maximum-twin-sum-of-a-linked-list",
+    "sync_id": "2236",
+    "leetcode_id": 2130,
+    "slug": "maximum-twin-sum-of-a-linked-list",
+    "title": "Maximum Twin Sum of a Linked List",
+    "difficulty": "Medium"
+  },
+  "minimum-sum-of-four-digit-number-after-splitting-digits": {
+    "folder": "2264-minimum-sum-of-four-digit-number-after-splitting-digits",
+    "sync_id": "2264",
+    "leetcode_id": 2160,
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "difficulty": "Easy"
+  },
+  "sort-even-and-odd-indices-independently": {
+    "folder": "2283-sort-even-and-odd-indices-independently",
+    "sync_id": "2283",
+    "leetcode_id": 2164,
+    "slug": "sort-even-and-odd-indices-independently",
+    "title": "Sort Even and Odd Indices Independently",
+    "difficulty": "Easy"
+  },
+  "find-the-difference-of-two-arrays": {
+    "folder": "1392-find-the-difference-of-two-arrays",
+    "sync_id": "1392",
+    "leetcode_id": 2215,
+    "slug": "find-the-difference-of-two-arrays",
+    "title": "Find the Difference of Two Arrays",
+    "difficulty": "Easy"
+  },
+  "add-two-integers": {
+    "folder": "2383-add-two-integers",
+    "sync_id": "2383",
+    "leetcode_id": 2235,
+    "slug": "add-two-integers",
+    "title": "Add Two Integers",
+    "difficulty": "Easy"
+  },
+  "count-nodes-equal-to-average-of-subtree": {
+    "folder": "2347-count-nodes-equal-to-average-of-subtree",
+    "sync_id": "2347",
+    "leetcode_id": 2265,
+    "slug": "count-nodes-equal-to-average-of-subtree",
+    "title": "Count Nodes Equal to Average of Subtree",
+    "difficulty": "Medium"
+  },
+  "maximum-total-importance-of-roads": {
+    "folder": "2379-maximum-total-importance-of-roads",
+    "sync_id": "2379",
+    "leetcode_id": 2285,
+    "slug": "maximum-total-importance-of-roads",
+    "title": "Maximum Total Importance of Roads",
+    "difficulty": "Medium"
+  },
+  "count-asterisks": {
+    "folder": "2401-count-asterisks",
+    "sync_id": "2401",
+    "leetcode_id": 2315,
+    "slug": "count-asterisks",
+    "title": "Count Asterisks",
+    "difficulty": "Easy"
+  },
+  "evaluate-boolean-binary-tree": {
+    "folder": "2416-evaluate-boolean-binary-tree",
+    "sync_id": "2416",
+    "leetcode_id": 2331,
+    "slug": "evaluate-boolean-binary-tree",
+    "title": "Evaluate Boolean Binary Tree",
+    "difficulty": "Easy"
+  },
+  "smallest-number-in-infinite-set": {
+    "folder": "2413-smallest-number-in-infinite-set",
+    "sync_id": "2413",
+    "leetcode_id": 2336,
+    "slug": "smallest-number-in-infinite-set",
+    "title": "Smallest Number in Infinite Set",
+    "difficulty": "Medium"
+  },
+  "equal-row-and-column-pairs": {
+    "folder": "2428-equal-row-and-column-pairs",
+    "sync_id": "2428",
+    "leetcode_id": 2352,
+    "slug": "equal-row-and-column-pairs",
+    "title": "Equal Row and Column Pairs",
+    "difficulty": "Medium"
+  },
+  "removing-stars-from-a-string": {
+    "folder": "2470-removing-stars-from-a-string",
+    "sync_id": "2470",
+    "leetcode_id": 2390,
+    "slug": "removing-stars-from-a-string",
+    "title": "Removing Stars From a String",
+    "difficulty": "Medium"
+  },
+  "divide-nodes-into-the-maximum-number-of-groups": {
+    "folder": "2583-divide-nodes-into-the-maximum-number-of-groups",
+    "sync_id": "2583",
+    "leetcode_id": 2493,
+    "slug": "divide-nodes-into-the-maximum-number-of-groups",
+    "title": "Divide Nodes Into the Maximum Number of Groups",
+    "difficulty": "Hard"
+  },
+  "maximum-number-of-fish-in-a-grid": {
+    "folder": "2764-maximum-number-of-fish-in-a-grid",
+    "sync_id": "2764",
+    "leetcode_id": 2658,
+    "slug": "maximum-number-of-fish-in-a-grid",
+    "title": "Maximum Number of Fish in a Grid",
+    "difficulty": "Medium"
+  },
+  "first-completely-painted-row-or-column": {
+    "folder": "2685-first-completely-painted-row-or-column",
+    "sync_id": "2685",
+    "leetcode_id": 2661,
+    "slug": "first-completely-painted-row-or-column",
+    "title": "First Completely Painted Row or Column",
+    "difficulty": "Medium"
+  },
+  "count-pairs-whose-sum-is-less-than-target": {
+    "folder": "2917-count-pairs-whose-sum-is-less-than-target",
+    "sync_id": "2917",
+    "leetcode_id": 2824,
+    "slug": "count-pairs-whose-sum-is-less-than-target",
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "difficulty": "Easy"
+  },
+  "find-champion-i": {
+    "folder": "3188-find-champion-i",
+    "sync_id": "3188",
+    "leetcode_id": 2923,
+    "slug": "find-champion-i",
+    "title": "Find Champion I",
+    "difficulty": "Easy"
+  },
+  "make-lexicographically-smallest-array-by-swapping-elements": {
+    "folder": "3219-make-lexicographically-smallest-array-by-swapping-elements",
+    "sync_id": "3219",
+    "leetcode_id": 2948,
+    "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+    "title": "Make Lexicographically Smallest Array by Swapping Elements",
+    "difficulty": "Medium"
+  },
+  "special-array-i": {
+    "folder": "3429-special-array-i",
+    "sync_id": "3429",
+    "leetcode_id": 3151,
+    "slug": "special-array-i",
+    "title": "Special Array I",
+    "difficulty": "Easy"
+  },
+  "find-the-original-typed-string-i": {
+    "folder": "3617-find-the-original-typed-string-i",
+    "sync_id": "3617",
+    "leetcode_id": 3330,
+    "slug": "find-the-original-typed-string-i",
+    "title": "Find the Original Typed String I",
+    "difficulty": "Easy"
+  },
+  "find-subtree-sizes-after-changes": {
+    "folder": "3576-find-subtree-sizes-after-changes",
+    "sync_id": "3576",
+    "leetcode_id": 3331,
+    "slug": "find-subtree-sizes-after-changes",
+    "title": "Find Subtree Sizes After Changes",
+    "difficulty": "Medium"
+  },
+  "find-the-maximum-factor-score-of-array": {
+    "folder": "3593-find-the-maximum-factor-score-of-array",
+    "sync_id": "3593",
+    "leetcode_id": 3334,
+    "slug": "find-the-maximum-factor-score-of-array",
+    "title": "Find the Maximum Factor Score of Array",
+    "difficulty": "Medium"
+  },
+  "make-array-elements-equal-to-zero": {
+    "folder": "3616-make-array-elements-equal-to-zero",
+    "sync_id": "3616",
+    "leetcode_id": 3354,
+    "slug": "make-array-elements-equal-to-zero",
+    "title": "Make Array Elements Equal to Zero",
+    "difficulty": "Easy"
+  }
+}

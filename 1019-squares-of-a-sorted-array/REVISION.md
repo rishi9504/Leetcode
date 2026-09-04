@@ -1,0 +1,58 @@
+---
+leetcode_id: 977
+sync_id: "1019"
+title: "Squares of a Sorted Array"
+slug: "squares-of-a-sorted-array"
+difficulty: "Easy"
+topics: ["Array"]
+current_approach: "Two Pointers"
+target_pattern: "Two Pointers"
+pattern_variant: "Two Pointers"
+secondary_patterns: ["Sorting"]
+solution_quality: "interview_ready"
+confidence: "yellow"
+last_revised: null
+redo: false
+---
+
+# 977. Squares of a Sorted Array
+
+## Recognition
+
+Look for ordered data, paired choices, or an in-place partition/traversal. This problem uses the **Two Pointers** variant.
+
+## Current Approach
+
+The saved solution uses **Two Pointers**.
+
+## Interview Approach
+
+Use **Two Pointers** with **Two Pointers**. The saved implementation already demonstrates this approach.
+
+## Core Mental Model
+
+Move the pointer whose side can no longer improve or satisfy the invariant.
+
+## Complexity
+
+### Current Solution
+
+Time: O(n) for the main traversal
+Space: O(1) to O(n), according to stored state/output
+
+## Common Mistake
+
+Do not move both pointers until the invariant justifies it.
+
+## Alternative Approaches
+
+- [Split negatives and merge](alternatives/split-negative-merge.py)
+
+## What I Should Remember
+
+- Recognition: Look for ordered data, paired choices, or an in-place partition/traversal.
+- Target: Two Pointers - Two Pointers.
+
+## Redo Test
+
+Can I derive the target interview approach without looking at code?
