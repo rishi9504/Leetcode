@@ -1,0 +1,54 @@
+---
+leetcode_id: 203
+sync_id: "0203"
+title: "Remove Linked List Elements"
+slug: "remove-linked-list-elements"
+difficulty: "Easy"
+topics: ["Linked List"]
+current_approach: "Linked List Traversal"
+target_pattern: "Linked List Techniques"
+pattern_variant: "Linked List Traversal"
+secondary_patterns: []
+solution_quality: "interview_ready"
+confidence: "yellow"
+last_revised: null
+redo: false
+---
+
+# 203. Remove Linked List Elements
+
+## Recognition
+
+Pointer rewiring, relative positions, or cycle structure is the main signal. This problem uses the **Linked List Traversal** variant.
+
+## Current Approach
+
+The saved solution uses **Linked List Traversal**.
+
+## Interview Approach
+
+Use **Linked List Techniques** with **Linked List Traversal**. The saved implementation already demonstrates this approach.
+
+## Core Mental Model
+
+Name the predecessor/current/successor roles and change links in a lossless order.
+
+## Complexity
+
+### Current Solution
+
+Time: O(n) for the main traversal
+Space: O(1) to O(n), according to stored state/output
+
+## Common Mistake
+
+A dummy node often removes special handling at the head.
+
+## What I Should Remember
+
+- Recognition: Pointer rewiring, relative positions, or cycle structure is the main signal.
+- Target: Linked List Techniques - Linked List Traversal.
+
+## Redo Test
+
+Can I derive the target interview approach without looking at code?
